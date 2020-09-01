@@ -1,0 +1,6 @@
+module Pods_loyaltyStationReactNativeSDK {
+  umbrella header "Pods-loyaltyStationReactNativeSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
