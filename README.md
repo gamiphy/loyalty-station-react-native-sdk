@@ -1,1 +1,0 @@
-# loyalty-station-react-native-sdk

@@ -14,8 +14,9 @@ const App: () => ReactNode = () => {
 
 const styles = StyleSheet.create({
     root: {
+        flex: 1,
         alignItems: 'center',
-        alignSelf: 'center'
+        justifyContent: 'center'
     },
 });
 

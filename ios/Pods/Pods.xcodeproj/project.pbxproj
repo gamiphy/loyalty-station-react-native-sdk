@@ -124,7 +124,6 @@
 		04782023478A361CC309B4E4C4B4DB48 /* JSBigString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57232E22AB1D0E2AFD2763029C57F90D /* JSBigString.cpp */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
 		0496E1728E220AEBEDAD5CBF91E7B74C /* FlipperState.h in Headers */ = {isa = PBXBuildFile; fileRef = C7228483B2407CE0C650CDC4B1FD2662 /* FlipperState.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		04B551B43694D3F3B353360203E94028 /* DispatchMessageQueueThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D742BF7E7D632B8C3C60FF01270306A /* DispatchMessageQueueThread.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		04BDEFCECB7220BE9052A22FC06F52FA /* Pods-loyaltyStationReactNativeSDK-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F25A89B07EF3795D1314FCA31C40AF1 /* Pods-loyaltyStationReactNativeSDK-tvOSTests-dummy.m */; };
 		050764AE053E95388DBBFB293FDBF2BC /* PicoSpinLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 669CF6F555428296800E2FA2CEEEEE41 /* PicoSpinLock.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		05587DCF334006A0B06ED2E9F13AC930 /* RCTSettingsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7822BF8A67FB78AE1EB9948D71BB211E /* RCTSettingsManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0564A8824FB38A554D560700343B0679 /* RCTNativeAnimatedNodesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0938A004B7C01A1E9933DC678E3748 /* RCTNativeAnimatedNodesManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -371,7 +370,7 @@
 		2D4A335219F10A23A44DE2E69A7A307C /* RCTDisplayWeakRefreshable.h in Headers */ = {isa = PBXBuildFile; fileRef = CE76097E2C733A22BB240C57A377AF11 /* RCTDisplayWeakRefreshable.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2D5FC4B849114BC430604A3FAD12549B /* RCTShadowView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9EAB03F541753F43A76B632F21F8EE /* RCTShadowView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2D94B903B687465A1A40CEBEE7FEC6E9 /* Frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F3E9ECC9AD362AEF16AC363098FF3D /* Frame.cpp */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_HAVE_LIBGFLAGS=0 -DFOLLY_HAVE_LIBJEMALLOC=0 -DFOLLY_HAVE_PREADV=0 -DFOLLY_HAVE_PWRITEV=0 -DFOLLY_HAVE_TFO=0 -DFOLLY_USE_SYMBOLIZER=0  -frtti\n    -fexceptions\n    -std=c++14\n    -Wno-error\n    -Wno-unused-local-typedefs\n    -Wno-unused-variable\n    -Wno-sign-compare\n    -Wno-comment\n    -Wno-return-type\n    -Wno-global-constructors"; }; };
-		2DEB7F879AF41BEC21F1826CEC4054F5 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA393D91D82187C466F1286A548CA280 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-dummy.m */; };
+		2DEB7F879AF41BEC21F1826CEC4054F5 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CF43D3C63D3725C1E9C2DC576F8CDC /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-dummy.m */; };
 		2E08E47CF3B7BCEAB85479248233BE52 /* SKObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 19B4A00965DC0C3843744E0183793E72 /* SKObject.mm */; settings = {COMPILER_FLAGS = "-DDEBUG=1 -DFLIPPER_OSS=1 -DFB_SONARKIT_ENABLED=1 -DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_HAVE_LIBGFLAGS=0 -DFOLLY_HAVE_LIBJEMALLOC=0 -DFOLLY_HAVE_PREADV=0 -DFOLLY_HAVE_PWRITEV=0 -DFOLLY_HAVE_TFO=0 -DFOLLY_USE_SYMBOLIZER=0"; }; };
 		2E31E0B3EBD402CEFF64891929293A70 /* fixed-dtoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 0082B4B8123ADD2BDE68527000F9513C /* fixed-dtoa.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2E87AE1BD8357FD18AEBF781CDB114DD /* RCTTVNavigationEventEmitter.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB63A5E12288B2D1F21D531003FD2D73 /* RCTTVNavigationEventEmitter.mm */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-nullability-completeness"; }; };
@@ -932,7 +931,7 @@
 		823F08603B32859CE18D9E3D37357A54 /* SocketFileDescriptorMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 03043FE4C4703826552CF2942F4CFDFE /* SocketFileDescriptorMap.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8260D28FB3F1B0ED535701C688F36242 /* RCTScrollViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C0EFFE1559170D43FA92FFB68A14CC0A /* RCTScrollViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		828477B6FC8A1270CFA965E87CFB5138 /* RCTPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 810A571E9228BEBE392A087A30B6FBF3 /* RCTPickerManager.m */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
-		8287ED7D6E3530DA802F439C13380017 /* Pods-loyaltyStationReactNativeSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D46594CA44600F1237BC1346837CE9 /* Pods-loyaltyStationReactNativeSDK-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8287ED7D6E3530DA802F439C13380017 /* Pods-loyaltyStationReactNativeSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3027D8282BCF0B17243CABA5B7DBA0 /* Pods-loyaltyStationReactNativeSDK-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		829168B41AB0527695E68C1D5380C266 /* JSONSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FEC251F1732361EDE7F5BBEDEFC356 /* JSONSchema.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		829371AEF916501613B53CD659E19567 /* RCTGIFImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E6EF3CF8D4A618A22279BADBFE671B /* RCTGIFImageDecoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		82BC85853B48599CF7034D4978C66459 /* SKNodeDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5EB1E2C06506AB081251E47D461969 /* SKNodeDescriptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -1115,7 +1114,7 @@
 		9F306FCB67D6ADDA635F9D9A81D22BFA /* Cursor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05ECA3558375021F33B97A6911EE1673 /* Cursor.cpp */; settings = {COMPILER_FLAGS = "-DFOLLY_HAVE_PTHREAD=1 -DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_HAVE_LIBGFLAGS=0 -DFOLLY_HAVE_LIBJEMALLOC=0 -DFOLLY_HAVE_PREADV=0 -DFOLLY_HAVE_PWRITEV=0 -DFOLLY_HAVE_TFO=0 -DFOLLY_USE_SYMBOLIZER=0\n    -frtti\n    -fexceptions\n    -std=c++14\n    -Wno-error\n    -Wno-unused-local-typedefs\n    -Wno-unused-variable\n    -Wno-sign-compare\n    -Wno-comment\n    -Wno-return-type\n    -Wno-global-constructors"; }; };
 		9F7B5FBC79EAF261C231ED68CCA2553F /* StreamThroughputMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B15E97BE3EC03E86EABCA2B9DD2F0A77 /* StreamThroughputMemory.cpp */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_HAVE_LIBGFLAGS=0 -DFOLLY_HAVE_LIBJEMALLOC=0 -DFOLLY_HAVE_PREADV=0 -DFOLLY_HAVE_PWRITEV=0 -DFOLLY_HAVE_TFO=0 -DFOLLY_USE_SYMBOLIZER=0  -frtti\n    -fexceptions\n    -std=c++14\n    -Wno-error\n    -Wno-unused-local-typedefs\n    -Wno-unused-variable\n    -Wno-sign-compare\n    -Wno-comment\n    -Wno-return-type\n    -Wno-global-constructors"; }; };
 		9F88EDE496B0208C9BD8B9422C639316 /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EAF07B403C4793435B04C3F2790056 /* log.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9FA2013F825912C51912CFB3540163F9 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA63F2D59BFB0D6701FB9C401F14A3DD /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9FA2013F825912C51912CFB3540163F9 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E725A1B94C20837042C60329C19A9B /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9FC9FCDE07BC3E6AF0826D7AE7F303F4 /* RCTSinglelineTextInputViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CD55B7133EB9E40B8793B7FD2338553C /* RCTSinglelineTextInputViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9FCE7496CD7BB47EF306CB0DD56EA32A /* experiments-inl.h in Headers */ = {isa = PBXBuildFile; fileRef = 80BA2113ADE25DBCCDFD6421B28A7067 /* experiments-inl.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A006EA06D6640133C999F7A49A81D77E /* RCTFileRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C02AB3019C84158C3E5332567706C8 /* RCTFileRequestHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -1196,7 +1195,6 @@
 		AC2903679DA7B6240539795ABD3F3FBA /* RSocketStateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7BD563E6AE13B55AFDFCEB51EE53F95 /* RSocketStateMachine.cpp */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_HAVE_LIBGFLAGS=0 -DFOLLY_HAVE_LIBJEMALLOC=0 -DFOLLY_HAVE_PREADV=0 -DFOLLY_HAVE_PWRITEV=0 -DFOLLY_HAVE_TFO=0 -DFOLLY_USE_SYMBOLIZER=0  -frtti\n    -fexceptions\n    -std=c++14\n    -Wno-error\n    -Wno-unused-local-typedefs\n    -Wno-unused-variable\n    -Wno-sign-compare\n    -Wno-comment\n    -Wno-return-type\n    -Wno-global-constructors"; }; };
 		AC2A4B9D1168607041C3A0DB2ECB4636 /* Semaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = 85BCF0C0AD2B816E90D4FE8B06430831 /* Semaphore.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AC32932952C3DFEDD41B409756F6F777 /* AtomicReadMostlyMainPtr.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4D140ED5952B14A04F8A5C9C540CD9 /* AtomicReadMostlyMainPtr.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AC33544FB18C5A088A4C787E09B51DE7 /* Pods-loyaltyStationReactNativeSDK-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543DF3F3FEBC2D00C9F9E6BAEA68D7D /* Pods-loyaltyStationReactNativeSDK-tvOS-dummy.m */; };
 		AC3624864E7F8698E97EF22EF270A5F1 /* Subscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 5768E75FD9667BB97C374FD1212ACDA2 /* Subscription.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ACE7F710533E4AC5D694E89A3877D51F /* SKNamed.h in Headers */ = {isa = PBXBuildFile; fileRef = 07C749DE67E2D17700D1F897CAABDB44 /* SKNamed.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AD18928D1B3C90B6C54D11A9962403FE /* JsArgumentHelpers-inl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1503FFE0F33BFE05E62E8B9E2143A0D8 /* JsArgumentHelpers-inl.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -1229,7 +1227,7 @@
 		B1CB02AF779BB1E347EFFC33F9851098 /* RCTTextTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD473298B0996A5CD690C9E62EEEADA /* RCTTextTransform.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B20E2104DD60A194165542B0AA180628 /* MasterPtr.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C9A2315DA66A6C1CF27D0DC2DEE6BE /* MasterPtr.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B24031E30E523C7160F8F5CCA25735EC /* RCTDevLoadingViewSetEnabled.h in Headers */ = {isa = PBXBuildFile; fileRef = 75938FAFA623F3F8C81F31E55FAB8A29 /* RCTDevLoadingViewSetEnabled.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B286513571CBE9B56A3AC082E324BE8F /* Pods-loyaltyStationReactNativeSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26437759DA1A87AF0333C5B2828F8846 /* Pods-loyaltyStationReactNativeSDK-dummy.m */; };
+		B286513571CBE9B56A3AC082E324BE8F /* Pods-loyaltyStationReactNativeSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2365D80779BF34D59ADBB51922FEB3E /* Pods-loyaltyStationReactNativeSDK-dummy.m */; };
 		B286814FE12B03656F533F95A27E6699 /* SKStateUpdateCPPWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 12FC9111F4F39950CFE59F2B5E2BAFE8 /* SKStateUpdateCPPWrapper.mm */; settings = {COMPILER_FLAGS = "-DDEBUG=1 -DFLIPPER_OSS=1 -DFB_SONARKIT_ENABLED=1 -DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_HAVE_LIBGFLAGS=0 -DFOLLY_HAVE_LIBJEMALLOC=0 -DFOLLY_HAVE_PREADV=0 -DFOLLY_HAVE_PWRITEV=0 -DFOLLY_HAVE_TFO=0 -DFOLLY_USE_SYMBOLIZER=0"; }; };
 		B299CB6BBEE40B864BB6E646F912F8C9 /* RCTSurfaceView+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D036AEE27E199BF1DA6A1DF915AEE7 /* RCTSurfaceView+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B2EF5C82BC611CBDF4B346F0502EF1CF /* YGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E76CFC004E73DE6E8D265BA83483FD /* YGLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -2131,13 +2129,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = B6D5DD49633DFF0657B8C3F08EB3ABA9;
 			remoteInfo = ReactCommon;
-		};
-		43C3FBBC8CEA9DAC799161186EB9AA8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C50D6BA712A488429F9EEF55EDF582A0;
-			remoteInfo = "Pods-loyaltyStationReactNativeSDK-tvOS";
 		};
 		461F7305E67FC3BC3C7FD72DAE5D99A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -3150,7 +3141,6 @@
 		055B85DC0717741E8D82D5F6412C53CD /* RCTRedBoxSetEnabled.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTRedBoxSetEnabled.m; sourceTree = "<group>"; };
 		056947A85A62C527A83255AEA838B340 /* ReactCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactCommon-prefix.pch"; sourceTree = "<group>"; };
 		056F404F4188CD9DA4D740ED51FE579E /* React-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "React-Core.release.xcconfig"; sourceTree = "<group>"; };
-		057BD1FC53A6EB11D3CE918CF70135D0 /* libPods-loyaltyStationReactNativeSDK-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-loyaltyStationReactNativeSDK-tvOS.a"; path = "libPods-loyaltyStationReactNativeSDK-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		058AF55FB7FA165B7F4456018CAB3D67 /* RCTRefreshableProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRefreshableProtocol.h; sourceTree = "<group>"; };
 		05A667DD2EEA2EF86794339C03EF4B60 /* ThreadCachedInts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ThreadCachedInts.h; path = folly/synchronization/detail/ThreadCachedInts.h; sourceTree = "<group>"; };
 		05D3ECAF2BE49498E1F51785A172FB88 /* Demangle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Demangle.cpp; path = folly/Demangle.cpp; sourceTree = "<group>"; };
@@ -3201,7 +3191,6 @@
 		0AC9AEC458D5FF01173FB0BD05ECEC15 /* Future-inl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Future-inl.h"; path = "folly/futures/Future-inl.h"; sourceTree = "<group>"; };
 		0ADA057C0B1D27F67D4E270995E05D9B /* TcpConnectionAcceptor.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TcpConnectionAcceptor.cpp; path = rsocket/transports/tcp/TcpConnectionAcceptor.cpp; sourceTree = "<group>"; };
 		0AED256A52833C5A56E41CB3868C4FE0 /* ProxyLockable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProxyLockable.h; path = folly/synchronization/detail/ProxyLockable.h; sourceTree = "<group>"; };
-		0B10633E8696F31929471A778E081B25 /* Pods-loyaltyStationReactNativeSDK-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-loyaltyStationReactNativeSDK-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0B45CFA8B3E4962C61055D81D9FF1F2D /* ReactCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactCommon.debug.xcconfig; sourceTree = "<group>"; };
 		0B46A6BDAF67A746D802E7B542F3FFD4 /* RCTLayoutAnimationGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTLayoutAnimationGroup.m; sourceTree = "<group>"; };
 		0B76AF43BD9AA7EE3866CFE4E0C6D240 /* double-conversion.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "double-conversion.cc"; path = "double-conversion/double-conversion.cc"; sourceTree = "<group>"; };
@@ -3244,11 +3233,11 @@
 		10A164C9C4EE53E0D26EC87C0AE11448 /* Overload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Overload.h; path = folly/Overload.h; sourceTree = "<group>"; };
 		10C7A896C34BD916A91E88A92BDD7889 /* RecordIO.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = RecordIO.cpp; path = folly/io/RecordIO.cpp; sourceTree = "<group>"; };
 		10F5A64D9AFF0BD0C68D481D77B5CAAC /* BitIteratorDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BitIteratorDetail.h; path = folly/container/detail/BitIteratorDetail.h; sourceTree = "<group>"; };
-		10FF20B7BD9F23C1A881AD9EC3A440EF /* Pods-loyaltyStationReactNativeSDK-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-loyaltyStationReactNativeSDK-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1135A0FA8F5617BEFA551A562E6B5640 /* ScheduledFrameProcessor.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ScheduledFrameProcessor.cpp; path = rsocket/framing/ScheduledFrameProcessor.cpp; sourceTree = "<group>"; };
 		11407A74EEF706E13FA979548F9634A1 /* RCTPerformanceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTPerformanceLogger.m; sourceTree = "<group>"; };
 		1168609CF8FB11F61332111B948070EC /* IOVec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IOVec.h; path = folly/portability/IOVec.h; sourceTree = "<group>"; };
 		116F4C54DB749EEC84C90B35B657C9B7 /* UniqueInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UniqueInstance.h; path = folly/detail/UniqueInstance.h; sourceTree = "<group>"; };
+		117CB745EAAC6FFB19717DCAE4EF4CD4 /* Pods-loyaltyStationReactNativeSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-loyaltyStationReactNativeSDK.modulemap"; sourceTree = "<group>"; };
 		118812F3292FC12593222383F8B4287F /* React-jsiexecutor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "React-jsiexecutor-dummy.m"; sourceTree = "<group>"; };
 		11CB7D4ED80C7105E4FD879916457798 /* ExceptionWrapper-inl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ExceptionWrapper-inl.h"; path = "folly/ExceptionWrapper-inl.h"; sourceTree = "<group>"; };
 		11D532E66E1040310C42D0BD9A38E66B /* AsyncTransportCertificate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncTransportCertificate.h; path = folly/io/async/AsyncTransportCertificate.h; sourceTree = "<group>"; };
@@ -3324,6 +3313,7 @@
 		1A00B7BA0B6FBFCBCA697A8EBCCEB2E0 /* HazptrObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HazptrObj.h; path = folly/synchronization/HazptrObj.h; sourceTree = "<group>"; };
 		1A0F90A8718C144D28A449E35A164FCB /* SocketAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketAddress.h; path = folly/SocketAddress.h; sourceTree = "<group>"; };
 		1A48C86A4032BDCAE1C7363AAA0DABE0 /* WTCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTCallback.h; path = folly/futures/WTCallback.h; sourceTree = "<group>"; };
+		1A58D024EBC642B545AEF60DDD158623 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.modulemap"; sourceTree = "<group>"; };
 		1AB508C578DAFE12FA2527DA2B199108 /* PTUSBHub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTUSBHub.m; path = peertalk/PTUSBHub.m; sourceTree = "<group>"; };
 		1AF5FFC1166884B91A9E82BB08E7BA61 /* ProgramOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProgramOptions.h; path = folly/experimental/ProgramOptions.h; sourceTree = "<group>"; };
 		1B11A031C9749C3BE04737DF8AF27ED1 /* ThreadWheelTimekeeper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ThreadWheelTimekeeper.h; path = folly/futures/ThreadWheelTimekeeper.h; sourceTree = "<group>"; };
@@ -3436,7 +3426,6 @@
 		2600EC21CC2FACA18600E888FAA990E8 /* FrameSerializer_v1_0.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = FrameSerializer_v1_0.cpp; path = rsocket/framing/FrameSerializer_v1_0.cpp; sourceTree = "<group>"; };
 		260D5B599D764CE198DF2A52662AD170 /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui.h; path = ios/include/openssl/ui.h; sourceTree = "<group>"; };
 		261E901CBB26859902F9113476513132 /* SanitizeThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SanitizeThread.h; path = folly/synchronization/SanitizeThread.h; sourceTree = "<group>"; };
-		26437759DA1A87AF0333C5B2828F8846 /* Pods-loyaltyStationReactNativeSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-loyaltyStationReactNativeSDK-dummy.m"; sourceTree = "<group>"; };
 		266FE1F84BA169DE5079282F11FE9B87 /* TupleOps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TupleOps.h; path = folly/experimental/TupleOps.h; sourceTree = "<group>"; };
 		26940A99339EEC53F796F769B7C62175 /* SKApplicationDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKApplicationDescriptor.h; path = iOS/Plugins/FlipperKitLayoutPlugin/FlipperKitLayoutPlugin/descriptors/SKApplicationDescriptor.h; sourceTree = "<group>"; };
 		269BE773C9482484B70949A40F4EA525 /* libReact-RCTSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libReact-RCTSettings.a"; path = "libReact-RCTSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3457,7 +3446,6 @@
 		2825EDBE39C9AF22C4CE61ACABF7E376 /* Allowance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Allowance.h; path = rsocket/internal/Allowance.h; sourceTree = "<group>"; };
 		287E495F963BD8C78C38C652676A499B /* RCTFPSGraph.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTFPSGraph.m; sourceTree = "<group>"; };
 		28A341463781E69392150B46A913ED80 /* RCTComponentEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTComponentEvent.m; sourceTree = "<group>"; };
-		28AAE44500F54C4817F2957786BF4EC4 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		28CE4603BC88768B4302FBE08B0958F1 /* React-RCTAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "React-RCTAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 		296410F0DBBE656BC8128A35DD8911D8 /* StreamsWriter.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = StreamsWriter.cpp; path = rsocket/statemachine/StreamsWriter.cpp; sourceTree = "<group>"; };
 		2978B49FA3E9893E7E4F26C09A662B22 /* RCTUIManagerUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTUIManagerUtils.h; sourceTree = "<group>"; };
@@ -3572,6 +3560,7 @@
 		3790B2E764BB44C8016985966798DA2D /* RSocketStats.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = RSocketStats.cpp; path = rsocket/RSocketStats.cpp; sourceTree = "<group>"; };
 		37B911EB189CA62E9CC003BCFD05BF95 /* RCTSubtractionAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSubtractionAnimatedNode.m; sourceTree = "<group>"; };
 		37BCC228A6431548A11AC00B5C903322 /* dynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dynamic.h; path = folly/dynamic.h; sourceTree = "<group>"; };
+		3819A180B3554CB02AEA35C0CB653FA1 /* Pods-loyaltyStationReactNativeSDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-loyaltyStationReactNativeSDK-resources.sh"; sourceTree = "<group>"; };
 		38725C23C48C4C69816D689E4CE9E094 /* RCTProfileTrampoline-arm.S */ = {isa = PBXFileReference; includeInIndex = 1; path = "RCTProfileTrampoline-arm.S"; sourceTree = "<group>"; };
 		38BC9B327BFF6853083B906C914EF25C /* RCTInputAccessoryViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTInputAccessoryViewManager.m; sourceTree = "<group>"; };
 		38E0B92B33FAB2F78A89A27D70B105CD /* RCTSRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTSRWebSocket.h; path = Libraries/WebSocket/RCTSRWebSocket.h; sourceTree = "<group>"; };
@@ -3606,6 +3595,7 @@
 		3CA1CEE00865C564A65F8FCBB1989C3A /* jsi-inl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jsi-inl.h"; sourceTree = "<group>"; };
 		3CA7A9404CCDD6BA22C97F8348CE3209 /* libglog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libglog.a; path = libglog.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB2E3077DAA07C3C6E30DC7DF51C533 /* RSocketServer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = RSocketServer.cpp; path = rsocket/RSocketServer.cpp; sourceTree = "<group>"; };
+		3D2AE788A405E6BAB17034450FD1BCF2 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3D2CA0626E6F8E14A7FC6DA6555890D6 /* RCTUITextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTUITextField.m; sourceTree = "<group>"; };
 		3D46A55BCF33221F54C007162B73B6FC /* RCTBaseTextViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTBaseTextViewManager.h; sourceTree = "<group>"; };
 		3D4A7A8A6B5139645E99E953C4E5B3B6 /* logging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = logging.h; path = src/glog/logging.h; sourceTree = "<group>"; };
@@ -3626,7 +3616,6 @@
 		3F69B6C1A1D1EC4ADDB5F245AF79E1B1 /* F14IntrinsicsAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = F14IntrinsicsAvailability.h; path = folly/container/detail/F14IntrinsicsAvailability.h; sourceTree = "<group>"; };
 		3F7258C719457C67EC674315BDD498F2 /* AsyncSocketBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncSocketBase.h; path = folly/io/async/AsyncSocketBase.h; sourceTree = "<group>"; };
 		3FC168F8B0607BC01F44668EA35C60E4 /* RCTStatusBarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTStatusBarManager.h; path = React/CoreModules/RCTStatusBarManager.h; sourceTree = "<group>"; };
-		3FD19C186A471181B5B2ABD6EA1E3B88 /* libPods-loyaltyStationReactNativeSDK-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-loyaltyStationReactNativeSDK-tvOSTests.a"; path = "libPods-loyaltyStationReactNativeSDK-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		400ECFEE8A0126A198DF5C1CC142CF3C /* ReactCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactCommon.release.xcconfig; sourceTree = "<group>"; };
 		4052DEAD932A27953256C0C7258CEB98 /* RCTErrorInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTErrorInfo.h; sourceTree = "<group>"; };
 		4068BDFB9294C4EB3AAC5DE7AFD45B1D /* SKButtonDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKButtonDescriptor.h; path = iOS/Plugins/FlipperKitLayoutPlugin/FlipperKitLayoutPlugin/descriptors/SKButtonDescriptor.h; sourceTree = "<group>"; };
@@ -3731,9 +3720,7 @@
 		4EB11D54F4B06D7AC38DA7A556ED3DE3 /* Sse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sse.h; path = folly/detail/Sse.h; sourceTree = "<group>"; };
 		4EDFBB90F9EA3C7FB87F79CF3934EC7A /* Conv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Conv.h; path = folly/Conv.h; sourceTree = "<group>"; };
 		4EEE4B5F2EDCE6A715F39E2A9913F897 /* FlipperKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlipperKit-prefix.pch"; sourceTree = "<group>"; };
-		4EF5E43FF68F7B42D30E84E48F1EE796 /* Pods-loyaltyStationReactNativeSDK-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-loyaltyStationReactNativeSDK-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		4F12756978291126E01CE1311095B064 /* opensslconf-i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "opensslconf-i386.h"; path = "ios/include/openssl/opensslconf-i386.h"; sourceTree = "<group>"; };
-		4F25A89B07EF3795D1314FCA31C40AF1 /* Pods-loyaltyStationReactNativeSDK-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-loyaltyStationReactNativeSDK-tvOSTests-dummy.m"; sourceTree = "<group>"; };
 		4F4D34BD435BAB1DC85D2C7FB850CB40 /* TestSubscriber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestSubscriber.h; path = yarpl/flowable/TestSubscriber.h; sourceTree = "<group>"; };
 		4F802DD411C67C347FEDDBD7F42B0A3E /* FlipperPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlipperPlugin.h; path = iOS/FlipperKit/FlipperPlugin.h; sourceTree = "<group>"; };
 		4F8419E5D58BA138883AF1F905D828B1 /* Poly-inl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Poly-inl.h"; path = "folly/Poly-inl.h"; sourceTree = "<group>"; };
@@ -3756,6 +3743,7 @@
 		5267B26D4024D2A86D69990409997268 /* RCTDisplayWeakRefreshable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTDisplayWeakRefreshable.m; sourceTree = "<group>"; };
 		52797C8C1CDA12524FB874F4D7D48CB6 /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des_old.h; path = ios/include/openssl/des_old.h; sourceTree = "<group>"; };
 		52A01F88876EB49371A08A0BCA861952 /* Codel.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Codel.cpp; path = folly/executors/Codel.cpp; sourceTree = "<group>"; };
+		52CF43D3C63D3725C1E9C2DC576F8CDC /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-dummy.m"; sourceTree = "<group>"; };
 		532080CE9655CEE0D553B9D708154112 /* IPAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPAddress.h; path = folly/IPAddress.h; sourceTree = "<group>"; };
 		533070523F04C2D10CA568C2F8C09D65 /* Flowables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flowables.h; path = yarpl/flowable/Flowables.h; sourceTree = "<group>"; };
 		5366A77F2D6AAFE0D348151B35E75445 /* RCTActionSheetManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTActionSheetManager.h; path = React/CoreModules/RCTActionSheetManager.h; sourceTree = "<group>"; };
@@ -3856,7 +3844,6 @@
 		61C97880B5D2A9D5E401737202C34E53 /* Time.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Time.cpp; path = folly/portability/Time.cpp; sourceTree = "<group>"; };
 		61E16AAA928EEFD016C4D306A123C531 /* DoubleConversion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DoubleConversion-dummy.m"; sourceTree = "<group>"; };
 		62011B2FF0480EE3CF4AD9609CFA47C8 /* DynamicBoundedQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicBoundedQueue.h; path = folly/concurrency/DynamicBoundedQueue.h; sourceTree = "<group>"; };
-		621C0C9CBDBB412A9E3300E9DC658F02 /* Pods-loyaltyStationReactNativeSDK-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-loyaltyStationReactNativeSDK-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		626D0DA28B21A348AC446EA360F50E88 /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ebcdic.h; path = ios/include/openssl/ebcdic.h; sourceTree = "<group>"; };
 		627C71732B793423DF16EA568B8457CD /* RCTActivityIndicatorViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTActivityIndicatorViewManager.m; sourceTree = "<group>"; };
 		62983EC6E27DA0EF5B4D08C9EB319AD4 /* logging.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = logging.cc; path = src/logging.cc; sourceTree = "<group>"; };
@@ -3879,7 +3866,6 @@
 		65234B3E668A42D9137B2C7AB051EE37 /* libFlipperKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFlipperKit.a; path = libFlipperKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6538807688337A7FB6F098643062A104 /* RCTSurfaceView.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTSurfaceView.mm; sourceTree = "<group>"; };
 		65405C26F9011D17537953CF77ABA1DC /* ThreadWheelTimekeeperHighRes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ThreadWheelTimekeeperHighRes.h; path = folly/experimental/ThreadWheelTimekeeperHighRes.h; sourceTree = "<group>"; };
-		6543DF3F3FEBC2D00C9F9E6BAEA68D7D /* Pods-loyaltyStationReactNativeSDK-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-loyaltyStationReactNativeSDK-tvOS-dummy.m"; sourceTree = "<group>"; };
 		654B9E796BEF51BE14326FFA7DFBC8F8 /* QuotientMultiSet-inl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QuotientMultiSet-inl.h"; path = "folly/experimental/QuotientMultiSet-inl.h"; sourceTree = "<group>"; };
 		655AD8F2EF334DC5DB8DE927DC31A9DD /* RCTKeyboardObserver.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTKeyboardObserver.mm; sourceTree = "<group>"; };
 		657002C668DFD87018547B227E07EBB5 /* React.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = React.debug.xcconfig; sourceTree = "<group>"; };
@@ -3998,7 +3984,6 @@
 		72F2594155EE499C3074383050F2B2CE /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ec.h; path = ios/include/openssl/ec.h; sourceTree = "<group>"; };
 		732E636D193CD338531D220BE364FE7A /* PolyException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PolyException.h; path = folly/PolyException.h; sourceTree = "<group>"; };
 		732F7B3AA298529BC4046AED1CC0AACE /* RCTSourceCode.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTSourceCode.mm; sourceTree = "<group>"; };
-		7360FC268F07D034F6BF625CA15524A6 /* Pods-loyaltyStationReactNativeSDK-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-loyaltyStationReactNativeSDK-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7373FF9105F7C1582D36640E06C37905 /* RCTAdditionAnimatedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAdditionAnimatedNode.h; sourceTree = "<group>"; };
 		7392303430A5F932DAC7B5EC0A339A58 /* ReactCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReactCommon-dummy.m"; sourceTree = "<group>"; };
 		73A4D209CCD73ABA706059523740E0C0 /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pqueue.h; path = ios/include/openssl/pqueue.h; sourceTree = "<group>"; };
@@ -4037,7 +4022,6 @@
 		777B3ADCF09DC1EAB23AF349FE77EA18 /* RCTTouchEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTouchEvent.h; sourceTree = "<group>"; };
 		77920CDAFBC07BC1604CC3A0D041A751 /* FlipperCppWrapperPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlipperCppWrapperPlugin.h; path = iOS/FlipperKit/CppBridge/FlipperCppWrapperPlugin.h; sourceTree = "<group>"; };
 		779BE5285CEF380804D41C9BC9D5B6BC /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = ios/include/openssl/ecdsa.h; sourceTree = "<group>"; };
-		77CA909EC0A5E55BF4FB1DEBB6A6EB92 /* Pods-loyaltyStationReactNativeSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-loyaltyStationReactNativeSDK-acknowledgements.plist"; sourceTree = "<group>"; };
 		77CC0E42214407D526765C5B2DD4C72C /* Sched.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Sched.cpp; path = folly/portability/Sched.cpp; sourceTree = "<group>"; };
 		77E3115F5E3751E30B5EBB3804681B23 /* CallOnce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CallOnce.h; path = folly/synchronization/CallOnce.h; sourceTree = "<group>"; };
 		7822BF8A67FB78AE1EB9948D71BB211E /* RCTSettingsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTSettingsManager.h; path = Libraries/Settings/RCTSettingsManager.h; sourceTree = "<group>"; };
@@ -4170,13 +4154,13 @@
 		89F2F53F4E0D1C0722C4D1F88B36163B /* TcpDuplexConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TcpDuplexConnection.h; path = rsocket/transports/tcp/TcpDuplexConnection.h; sourceTree = "<group>"; };
 		8A0EFDEA3951303545C4571AF761DCCC /* ScopedTraceSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScopedTraceSection.h; path = folly/tracing/ScopedTraceSection.h; sourceTree = "<group>"; };
 		8A264B81F3E93B2D51D4632885B82264 /* Unicode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Unicode.cpp; path = folly/Unicode.cpp; sourceTree = "<group>"; };
+		8A4561BD5551707F4BF83291192794B2 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		8A4B8D16809EB33F114C2E46931DD5C2 /* Flipper-Folly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Flipper-Folly-dummy.m"; sourceTree = "<group>"; };
 		8A5E634FD6FD6C881B61F6F77688EB39 /* RCTSurfaceSizeMeasureMode.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTSurfaceSizeMeasureMode.mm; sourceTree = "<group>"; };
 		8A758BCD3DD891BDC9EB4DB4344AA5DE /* fixed-dtoa.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "fixed-dtoa.cc"; path = "double-conversion/fixed-dtoa.cc"; sourceTree = "<group>"; };
 		8A9799B5D806237450A531D89F03A758 /* RCTRawTextShadowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTRawTextShadowView.m; sourceTree = "<group>"; };
 		8AC44ED60365624011A0822359101180 /* StaticTracepoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StaticTracepoint.h; path = folly/tracing/StaticTracepoint.h; sourceTree = "<group>"; };
 		8ACB6B4CA6267B0331F3D8FB61BCA5FB /* RCTRedBox.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTRedBox.mm; sourceTree = "<group>"; };
-		8B0C692ACEAA8E7A3463C089269F727C /* Pods-loyaltyStationReactNativeSDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-loyaltyStationReactNativeSDK-resources.sh"; sourceTree = "<group>"; };
 		8B3225BEB797F31182DE05CB29497C8A /* RSocketServiceHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSocketServiceHandler.h; path = rsocket/RSocketServiceHandler.h; sourceTree = "<group>"; };
 		8B8777FDD438AA7DB482D145AC23836A /* YGNodePrint.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGNodePrint.cpp; path = yoga/YGNodePrint.cpp; sourceTree = "<group>"; };
 		8BA00EA9DA64B9946C2279B55647CBB9 /* YGNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGNode.h; path = yoga/YGNode.h; sourceTree = "<group>"; };
@@ -4229,17 +4213,14 @@
 		9203F136913F9D398D0292166A6E74A8 /* Hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Hash.h; path = folly/hash/Hash.h; sourceTree = "<group>"; };
 		921B47FAE0DA6FB232D5E84F919C5333 /* RCTView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTView.m; sourceTree = "<group>"; };
 		924D08B943FE6A6D1DC29D3E9FE96995 /* opensslconf-arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "opensslconf-arm64.h"; path = "ios/include/openssl/opensslconf-arm64.h"; sourceTree = "<group>"; };
-		928D540BB4683E03BDEA01DD868AA2AA /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		92D41A6CC68B8EE15E48FC73DEFA1270 /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf_api.h; path = ios/include/openssl/conf_api.h; sourceTree = "<group>"; };
 		92F8681B4A82E0635C105AFDA1499CEF /* RCTNativeAnimatedModule.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTNativeAnimatedModule.mm; sourceTree = "<group>"; };
 		93192C6429E7488FA0DEAEA3B96C94AD /* AutoTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoTimer.h; path = folly/experimental/AutoTimer.h; sourceTree = "<group>"; };
 		9336FF8C90A3EE77174C18CFA7D9F97B /* FBLazyVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLazyVector.h; path = FBLazyVector/FBLazyVector.h; sourceTree = "<group>"; };
 		93E3AE4459AC9F4C57456A7BA387846A /* FileUtil.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = FileUtil.cpp; path = folly/FileUtil.cpp; sourceTree = "<group>"; };
-		93E8CCFB165B681CA859F7016B7B93C5 /* Pods-loyaltyStationReactNativeSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-loyaltyStationReactNativeSDK.release.xcconfig"; sourceTree = "<group>"; };
 		94491FC2773977D90F8B83C717195734 /* bignum.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = bignum.cc; path = "double-conversion/bignum.cc"; sourceTree = "<group>"; };
 		94567C5B8A4B04178A09BB438780001E /* ThreadName.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ThreadName.cpp; path = folly/system/ThreadName.cpp; sourceTree = "<group>"; };
 		94A422C7A1A9537C1BBE9C4D81AA0E38 /* RCTTextAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTextAttributes.m; sourceTree = "<group>"; };
-		94CE810A2A20DAC454D386509C32F7FF /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-resources.sh"; sourceTree = "<group>"; };
 		94F1E1A4219DBE98C0E88C5ADA9628E9 /* vlog_is_on.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = vlog_is_on.cc; path = src/vlog_is_on.cc; sourceTree = "<group>"; };
 		94F89B7BA4FA790032CCD82130E73430 /* StreamThroughputTcp.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = StreamThroughputTcp.cpp; path = rsocket/benchmarks/StreamThroughputTcp.cpp; sourceTree = "<group>"; };
 		94FA85D2656493B40840F9B32023F526 /* FlipperKitNetworkPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlipperKitNetworkPlugin.h; path = iOS/Plugins/FlipperKitNetworkPlugin/FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h; sourceTree = "<group>"; };
@@ -4268,6 +4249,7 @@
 		97D7119ED898371865DB1A99AF635CF1 /* SpookyHashV1.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = SpookyHashV1.cpp; path = folly/hash/SpookyHashV1.cpp; sourceTree = "<group>"; };
 		97E62861296C29D0A3950E1CD359CC79 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
 		97F30F3038658F524EFBDD84712AEDCA /* boost-for-react-native.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "boost-for-react-native.release.xcconfig"; sourceTree = "<group>"; };
+		97F3B14D927323CD72BFB3F13322A974 /* Pods-loyaltyStationReactNativeSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-loyaltyStationReactNativeSDK.release.xcconfig"; sourceTree = "<group>"; };
 		9814C61E5FACDEB698559F7980FB5135 /* YogaKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YogaKit.modulemap; sourceTree = "<group>"; };
 		981F03E1DD941DF4C0659E903A9813B4 /* LongLivedObject.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = LongLivedObject.cpp; path = turbomodule/core/LongLivedObject.cpp; sourceTree = "<group>"; };
 		984C85A81987802D838F5F59EDE0B79E /* Flipper-Glog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flipper-Glog-prefix.pch"; sourceTree = "<group>"; };
@@ -4280,7 +4262,6 @@
 		99D5CD245388DC76AAEF6E1E351A90ED /* libFlipper-Folly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libFlipper-Folly.a"; path = "libFlipper-Folly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EA8236FD57E4456D1EAF61A08D6A77 /* RCTStatusBarManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTStatusBarManager.mm; sourceTree = "<group>"; };
 		9A201CC85B2EF0F032D509F66DBD6CD3 /* RCTProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTProfile.m; sourceTree = "<group>"; };
-		9A427EDC3CC70FCC62E422EF87877932 /* Pods-loyaltyStationReactNativeSDK-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-loyaltyStationReactNativeSDK-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		9A5017CD7FF500C7C68485441094E9A9 /* signalhandler.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = signalhandler.cc; path = src/signalhandler.cc; sourceTree = "<group>"; };
 		9A51BAF9F0D7EAE057E6529FF3BA355C /* Folly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Folly-dummy.m"; sourceTree = "<group>"; };
 		9A697E7774E1E483B9C51E9DC4E6C0B6 /* MemoryResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MemoryResource.h; path = folly/memory/MemoryResource.h; sourceTree = "<group>"; };
@@ -4289,6 +4270,7 @@
 		9AA79FC379C79733871341750B106959 /* RCTSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSlider.h; sourceTree = "<group>"; };
 		9AD4759448BCD46727E1850738D466BE /* RCTFileRequestHandler.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTFileRequestHandler.mm; sourceTree = "<group>"; };
 		9B0F201B01876172CF26EC5744E8E969 /* RCTAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAnimatedNode.m; sourceTree = "<group>"; };
+		9B13141AF1B377141E3425D1541E1EA4 /* Pods-loyaltyStationReactNativeSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-loyaltyStationReactNativeSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		9B20369BD1CC8B9DF8E278BB7F101AC7 /* DynamicParser-inl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DynamicParser-inl.h"; path = "folly/experimental/DynamicParser-inl.h"; sourceTree = "<group>"; };
 		9B21FA3B9AA668BC6B3E3D2D7DBA17D7 /* RCTRootContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTRootContentView.m; sourceTree = "<group>"; };
 		9B5B83CD86DD54F674EE7E50648B0A1A /* InlineExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InlineExecutor.h; path = folly/executors/InlineExecutor.h; sourceTree = "<group>"; };
@@ -4315,6 +4297,7 @@
 		9E24A63D197BEB35EC4BF8966AE4E5A5 /* VirtualEventBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VirtualEventBase.h; path = folly/io/async/VirtualEventBase.h; sourceTree = "<group>"; };
 		9E624F2E3246275F3DD1202439B03959 /* TimeoutManager.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TimeoutManager.cpp; path = folly/io/async/TimeoutManager.cpp; sourceTree = "<group>"; };
 		9E8E3C95DB21278EABEEA6C5C28B8575 /* SysFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SysFile.h; path = folly/portability/SysFile.h; sourceTree = "<group>"; };
+		9EB6169855F47AFDBD578499C56C63B5 /* Pods-loyaltyStationReactNativeSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-loyaltyStationReactNativeSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9EDC6A64D7E093E509CBF4DB4CD7F7C0 /* RSocketConnectionEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSocketConnectionEvents.h; path = rsocket/RSocketConnectionEvents.h; sourceTree = "<group>"; };
 		9F074F16FE1B6C3F721863641845128E /* AsyncSocketException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncSocketException.h; path = folly/io/async/AsyncSocketException.h; sourceTree = "<group>"; };
 		9F0F224531468B16299A525F01F450BE /* ColdResumeHandler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ColdResumeHandler.cpp; path = rsocket/ColdResumeHandler.cpp; sourceTree = "<group>"; };
@@ -4341,7 +4324,6 @@
 		A177B6B69216D3A5DDFED74C9B340633 /* RCTFrameUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTFrameUpdate.m; sourceTree = "<group>"; };
 		A195CF2C70138666C9BDAD9538F03A06 /* RCTMultilineTextInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTMultilineTextInputView.m; sourceTree = "<group>"; };
 		A19C2EFC03DC36A89DCDEEB1C6E73827 /* RCTAnimationUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAnimationUtils.m; sourceTree = "<group>"; };
-		A1A30D6D5D9282FA40F27E642B8C0C04 /* Pods-loyaltyStationReactNativeSDK-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-loyaltyStationReactNativeSDK-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A207AE44E26DE511D0A8B691CD9C07E3 /* PTPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTPrivate.h; path = peertalk/PTPrivate.h; sourceTree = "<group>"; };
 		A20C503E1A701224C091EE407A818C46 /* ConnectionAcceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConnectionAcceptor.h; path = rsocket/ConnectionAcceptor.h; sourceTree = "<group>"; };
 		A23F32DD0417797A728648973E491505 /* ReactNativeVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ReactNativeVersion.h; sourceTree = "<group>"; };
@@ -4358,7 +4340,6 @@
 		A372FD2E75BE03FA8FD4EEFC4ECCBCF1 /* RCTModalHostViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTModalHostViewManager.m; sourceTree = "<group>"; };
 		A37825BD21793B27770B87EBA47F06C6 /* Flipper-PeerTalk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flipper-PeerTalk-prefix.pch"; sourceTree = "<group>"; };
 		A3B5DB409BF9B9543D81D9A3B1352F8C /* YGEnums.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGEnums.cpp; path = yoga/YGEnums.cpp; sourceTree = "<group>"; };
-		A3D46594CA44600F1237BC1346837CE9 /* Pods-loyaltyStationReactNativeSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-loyaltyStationReactNativeSDK-umbrella.h"; sourceTree = "<group>"; };
 		A3DCFEF8BCCA6DF1A498373ADB895446 /* React-Core.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "React-Core.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A40C4099864825054C5C8DC1412D8941 /* Hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Hash.h; path = folly/Hash.h; sourceTree = "<group>"; };
 		A4260B6DB2F7968CBC1A5A208359EA40 /* RSocket.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = RSocket.cpp; path = rsocket/RSocket.cpp; sourceTree = "<group>"; };
@@ -4422,6 +4403,7 @@
 		AAAAF46BE4788DD1F66600D769080F37 /* AsyncSSLSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncSSLSocket.h; path = folly/io/async/AsyncSSLSocket.h; sourceTree = "<group>"; };
 		AB2422205FEDBD5254B949FA645BC2CA /* ScheduledSingleSubscription.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ScheduledSingleSubscription.cpp; path = rsocket/internal/ScheduledSingleSubscription.cpp; sourceTree = "<group>"; };
 		AB31850B0976690EDCFB0DF4A27F09D7 /* SysUio.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = SysUio.cpp; path = folly/portability/SysUio.cpp; sourceTree = "<group>"; };
+		ABA2E846D5B82894C4C2959A1EE25C6F /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABB5E0A198C9B59DA7C4336E8D2C6B06 /* RSocketException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSocketException.h; path = rsocket/RSocketException.h; sourceTree = "<group>"; };
 		ABBD9CCA7FC335A68EC47B824E388EF1 /* RCTFPSGraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTFPSGraph.h; path = React/CoreModules/RCTFPSGraph.h; sourceTree = "<group>"; };
 		ABC155F6078573844A21ADD0CD8D16BE /* Subscriber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Subscriber.h; path = yarpl/flowable/Subscriber.h; sourceTree = "<group>"; };
@@ -4484,6 +4466,7 @@
 		B346E549C10E3B0145E42722F3B147E5 /* SharedPromise-inl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SharedPromise-inl.h"; path = "folly/futures/SharedPromise-inl.h"; sourceTree = "<group>"; };
 		B35383812AC282958B94EF2BD4A8300A /* Singleton-inl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Singleton-inl.h"; path = "folly/Singleton-inl.h"; sourceTree = "<group>"; };
 		B353DDEF0686B870354E5D7E4ECA98D4 /* Flipper-RSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flipper-RSocket.release.xcconfig"; sourceTree = "<group>"; };
+		B36B81A251882746ACE64DFF739AC80D /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B3830859DDD2E1BEB7DF1B38F7E848CA /* RCTPackagerClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTPackagerClient.m; sourceTree = "<group>"; };
 		B38AD78F2F6FB9229C2AC853EEEE5B92 /* CallstackHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CallstackHelper.h; path = xplat/Flipper/utils/CallstackHelper.h; sourceTree = "<group>"; };
 		B3B8E7F22FD4940333C6BF9E26E5E9F5 /* vlog_is_on.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = vlog_is_on.cc; path = src/vlog_is_on.cc; sourceTree = "<group>"; };
@@ -4538,6 +4521,7 @@
 		B9BFB8BB240E7A0D2C82014E88140381 /* logging.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = logging.cc; path = src/logging.cc; sourceTree = "<group>"; };
 		B9C444C4496C4C4E12C416FD5663A000 /* Conv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Conv.h; path = folly/chrono/Conv.h; sourceTree = "<group>"; };
 		B9E2EE81C60D93EC39883AE845735AC8 /* JSCExecutorFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSCExecutorFactory.h; sourceTree = "<group>"; };
+		B9E725A1B94C20837042C60329C19A9B /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-umbrella.h"; sourceTree = "<group>"; };
 		BA065DF6482105B8D13856B5AADC16C6 /* Dirent.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Dirent.cpp; path = folly/portability/Dirent.cpp; sourceTree = "<group>"; };
 		BA572523A120A670706259BC93715CBF /* InspectorInterfaces.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = InspectorInterfaces.h; sourceTree = "<group>"; };
 		BA839C037F29603AEB10536B7E959F72 /* shim.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shim.h; path = ios/include/openssl/shim.h; sourceTree = "<group>"; };
@@ -4546,6 +4530,7 @@
 		BADB01A3B36440A33DC6F3E6ECAB7C37 /* RCTSurfaceHostingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSurfaceHostingView.h; sourceTree = "<group>"; };
 		BADD56919E2CEFCD594EE566E2D033DA /* RCTWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTWeakProxy.h; sourceTree = "<group>"; };
 		BAE70E7979B9E2ADF5DEC7C586B7DCBF /* FrameHeader.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = FrameHeader.cpp; path = rsocket/framing/FrameHeader.cpp; sourceTree = "<group>"; };
+		BB3027D8282BCF0B17243CABA5B7DBA0 /* Pods-loyaltyStationReactNativeSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-loyaltyStationReactNativeSDK-umbrella.h"; sourceTree = "<group>"; };
 		BB5E85C789D6A36359D3FED2E1870C1E /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = React/AccessibilityResources/en.lproj; sourceTree = "<group>"; };
 		BB7702539884156E0A33050CAF38CA9A /* SKViewControllerDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKViewControllerDescriptor.m; path = iOS/Plugins/FlipperKitLayoutPlugin/FlipperKitLayoutPlugin/descriptors/SKViewControllerDescriptor.m; sourceTree = "<group>"; };
 		BB86D2982D32F7505A909CC6D0A7B7DA /* RCTRootView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTRootView.m; sourceTree = "<group>"; };
@@ -4621,7 +4606,6 @@
 		C60166EC26944AF31720687AB84C98FC /* React-RCTVibration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "React-RCTVibration.debug.xcconfig"; sourceTree = "<group>"; };
 		C60CA4DB8C7CAFC11593C06CDE669858 /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = ios/include/openssl/crypto.h; sourceTree = "<group>"; };
 		C6171422DF73000777AC9972DDE512ED /* RCTExceptionsManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTExceptionsManager.mm; sourceTree = "<group>"; };
-		C6298C502DEE7DBFDAAC03DBBA73F8BE /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.modulemap"; sourceTree = "<group>"; };
 		C66F6B55CFF3CCC9BF28ECD6BD9D23D3 /* Subscription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Subscription.h; path = yarpl/observable/Subscription.h; sourceTree = "<group>"; };
 		C6829E074BC13AAC3B5F3FA071C41448 /* FlipperKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlipperKit.modulemap; sourceTree = "<group>"; };
 		C6AD306694CC0B8F303399F07AF3E6A0 /* EventHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EventHandler.h; path = folly/io/async/EventHandler.h; sourceTree = "<group>"; };
@@ -4677,13 +4661,13 @@
 		CE626B554F6C9C07A67C9C5782AFCC0D /* AsymmetricMemoryBarrier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsymmetricMemoryBarrier.h; path = folly/synchronization/AsymmetricMemoryBarrier.h; sourceTree = "<group>"; };
 		CE76097E2C733A22BB240C57A377AF11 /* RCTDisplayWeakRefreshable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTDisplayWeakRefreshable.h; path = Libraries/Image/RCTDisplayWeakRefreshable.h; sourceTree = "<group>"; };
 		CECD4CD21C0C30B8AB4A78663E458EAB /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = util.h; path = src/event2/util.h; sourceTree = "<group>"; };
+		CF11CE610B6A2F03FA9A2162022C03C4 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-resources.sh"; sourceTree = "<group>"; };
 		CF46DB397DE511DA3F49215B9E73BCF2 /* YGLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YGLayout.m; path = YogaKit/Source/YGLayout.m; sourceTree = "<group>"; };
 		CF5386B22D66150476C89D68CF244BBC /* NativeToJsBridge.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = NativeToJsBridge.cpp; sourceTree = "<group>"; };
 		CF971229CC8489B5927A8C3411DE1D7E /* Math.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Math.h; path = folly/Math.h; sourceTree = "<group>"; };
 		CFB0D4C8FC769722BACB98A5D51E16B9 /* AsyncSSLSocket.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = AsyncSSLSocket.cpp; path = folly/io/async/AsyncSSLSocket.cpp; sourceTree = "<group>"; };
 		CFB5BFEF1EC7BF8B045F55E082ABC6E9 /* FlipperDiagnosticsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlipperDiagnosticsViewController.h; path = iOS/FlipperKit/FlipperDiagnosticsViewController.h; sourceTree = "<group>"; };
 		CFB6CE23B60B92497D523E683252D2EB /* RCTRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRootView.h; sourceTree = "<group>"; };
-		CFB703E5D254119867B960A03B927B7C /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CFBFC308F33DEB7E4FD4605DAFCD9E45 /* FlipperClient.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = FlipperClient.cpp; path = xplat/Flipper/FlipperClient.cpp; sourceTree = "<group>"; };
 		D006F94CD8DA11B4BB254EB14F0C6DD5 /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idea.h; path = ios/include/openssl/idea.h; sourceTree = "<group>"; };
 		D01A622F54EAF00C2E37680CE4590D26 /* RCTImageSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTImageSource.m; sourceTree = "<group>"; };
@@ -4776,6 +4760,7 @@
 		DDCE7E220568C236A3EAC5BBB79EA957 /* RCTLinkingPlugins.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTLinkingPlugins.h; path = Libraries/LinkingIOS/RCTLinkingPlugins.h; sourceTree = "<group>"; };
 		DDDEDE55948D2E301217A1094C329BDC /* opensslconf-armv7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "opensslconf-armv7.h"; path = "ios/include/openssl/opensslconf-armv7.h"; sourceTree = "<group>"; };
 		DDF317B86F9A0D0EA2DD2A97B2E1E35B /* BlockingQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlockingQueue.h; path = folly/executors/task_queue/BlockingQueue.h; sourceTree = "<group>"; };
+		DE772851B85129DAB90B696582F63133 /* Pods-loyaltyStationReactNativeSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-loyaltyStationReactNativeSDK-acknowledgements.plist"; sourceTree = "<group>"; };
 		DE8AB547649F349115B4620DFD01DA44 /* Init.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Init.h; path = folly/ssl/Init.h; sourceTree = "<group>"; };
 		DE9B4A8E5853DDB5CF1E81932DEB3AAA /* YGFloatOptional.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGFloatOptional.h; path = yoga/YGFloatOptional.h; sourceTree = "<group>"; };
 		DEAA5470AD7FF491A80FDA1E58806365 /* RSocketClient.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = RSocketClient.cpp; path = rsocket/RSocketClient.cpp; sourceTree = "<group>"; };
@@ -4800,18 +4785,17 @@
 		E0A02C2587E5BF8A15E7EA8CE6B5CD88 /* FlipperUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlipperUtil.m; path = iOS/FlipperKit/FlipperUtil.m; sourceTree = "<group>"; };
 		E0F4EE6010951E6C5422452FE2FB2D14 /* RCTConvert+Text.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+Text.m"; sourceTree = "<group>"; };
 		E11ECC7FC36B9460D9AE1135103EBE76 /* RCTInspectorPackagerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTInspectorPackagerConnection.m; sourceTree = "<group>"; };
-		E12C1E06365AB15FEE53EDD29907B8C7 /* Pods-loyaltyStationReactNativeSDK-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-loyaltyStationReactNativeSDK-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E174D06778BE816140E1AD2343414788 /* UIView+SKInvalidation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "UIView+SKInvalidation.mm"; path = "iOS/Plugins/FlipperKitLayoutPlugin/FlipperKitLayoutPlugin/UIView+SKInvalidation.mm"; sourceTree = "<group>"; };
 		E1CA777434778F11D6312BE02E5E0906 /* Flowables.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Flowables.cpp; path = yarpl/flowable/Flowables.cpp; sourceTree = "<group>"; };
 		E1E1171C15A44DD2B8B2EB7023F963FD /* React-RCTNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "React-RCTNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		E223E4E469B3EEB3B87F24284DEEE7F2 /* FlipperKitReactPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlipperKitReactPlugin.m; path = iOS/Plugins/FlipperKitReactPlugin/FlipperKitReactPlugin/FlipperKitReactPlugin.m; sourceTree = "<group>"; };
+		E2365D80779BF34D59ADBB51922FEB3E /* Pods-loyaltyStationReactNativeSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-loyaltyStationReactNativeSDK-dummy.m"; sourceTree = "<group>"; };
 		E245083FE049A46726883B4E09CA811E /* RCTConvertHelpers.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTConvertHelpers.mm; sourceTree = "<group>"; };
 		E2A777092BE7080590A89C6B5F3F29DA /* AtomicHashMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AtomicHashMap.h; path = folly/AtomicHashMap.h; sourceTree = "<group>"; };
 		E2BAED122304AAC620A7A48DE2DEE24B /* GlobalExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GlobalExecutor.h; path = folly/executors/GlobalExecutor.h; sourceTree = "<group>"; };
 		E2C670C8092291EE247B9E075DA71475 /* CheckedMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CheckedMath.h; path = folly/lang/CheckedMath.h; sourceTree = "<group>"; };
 		E2F327936D5FF608FD55C2961707E2E5 /* SSLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSLContext.h; path = folly/io/async/SSLContext.h; sourceTree = "<group>"; };
 		E2FB3D6911E883A6B8350314A648AF3F /* Cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Cast.h; path = folly/lang/Cast.h; sourceTree = "<group>"; };
-		E341E0186906039D9BB7D8845B789A45 /* Pods-loyaltyStationReactNativeSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-loyaltyStationReactNativeSDK.modulemap"; sourceTree = "<group>"; };
 		E3604BF53BD8DE18529A3EEA0AD641B1 /* RCTSwitchManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSwitchManager.m; sourceTree = "<group>"; };
 		E36B5C75BABADA6B41FE02645FD6E194 /* MicroLock.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MicroLock.cpp; path = folly/MicroLock.cpp; sourceTree = "<group>"; };
 		E386EC24495996D758E263AE75D079F4 /* Yoga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Yoga.debug.xcconfig; sourceTree = "<group>"; };
@@ -4858,8 +4842,6 @@
 		E9CE6F55042A750D8ABA1063EA7547F7 /* StaticTracepoint-ELFx86.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "StaticTracepoint-ELFx86.h"; path = "folly/tracing/StaticTracepoint-ELFx86.h"; sourceTree = "<group>"; };
 		E9D1010EB4161D481602DE3F6637B0BB /* Constexpr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Constexpr.h; path = folly/portability/Constexpr.h; sourceTree = "<group>"; };
 		E9EA677EBD68848D322CBAEDF1B6C136 /* RCTBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTBridge.m; sourceTree = "<group>"; };
-		EA393D91D82187C466F1286A548CA280 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-dummy.m"; sourceTree = "<group>"; };
-		EA63F2D59BFB0D6701FB9C401F14A3DD /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-umbrella.h"; sourceTree = "<group>"; };
 		EA767B608C7BD57CA327CF9A52283743 /* RCTMultipartStreamReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTMultipartStreamReader.h; sourceTree = "<group>"; };
 		EA8A8DEC8B8D38C5DFE4C37EB18BE536 /* RCTVirtualTextViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTVirtualTextViewManager.m; sourceTree = "<group>"; };
 		EAA3F2B3433EF512B2F05A02F7877869 /* RCTEventEmitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTEventEmitter.m; sourceTree = "<group>"; };
@@ -4881,7 +4863,6 @@
 		EC776A6E36C688AE62E58D0122A75371 /* RCTBridge+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTBridge+Private.h"; sourceTree = "<group>"; };
 		EC7ABDCF854045CFAEC81A7F874D773E /* FBReactNativeSpec-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBReactNativeSpec-dummy.m"; sourceTree = "<group>"; };
 		ECC4F05080A7EB7E4FAB737096BE6CDA /* React-CoreModules.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "React-CoreModules.release.xcconfig"; sourceTree = "<group>"; };
-		ECD1E18D8D69EFD231F48E9FE5C14459 /* Pods-loyaltyStationReactNativeSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-loyaltyStationReactNativeSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		ED1514ED369CEA4E1C64E0D73615C593 /* RCTShadowView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTShadowView+Layout.h"; sourceTree = "<group>"; };
 		ED82873D1390BA61398E038E8788BE44 /* SpookyHashV2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpookyHashV2.h; path = folly/hash/SpookyHashV2.h; sourceTree = "<group>"; };
 		ED8ECB5FA76732D15BD8484B7768E5D8 /* ResumeIdentificationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ResumeIdentificationToken.h; path = rsocket/framing/ResumeIdentificationToken.h; sourceTree = "<group>"; };
@@ -4934,7 +4915,6 @@
 		F2D7E6803D1EBFDA8856859139E584CA /* UniqueInstance.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = UniqueInstance.cpp; path = folly/detail/UniqueInstance.cpp; sourceTree = "<group>"; };
 		F2E333DBF9BB463CD2290D437F657C07 /* Demangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Demangle.h; path = folly/detail/Demangle.h; sourceTree = "<group>"; };
 		F2E7C88DFCD460A4B46B913ADEB8A641 /* libReact-jsiexecutor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libReact-jsiexecutor.a"; path = "libReact-jsiexecutor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F311AEAC284BDBFD76BEB4CC049E039B /* Pods-loyaltyStationReactNativeSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-loyaltyStationReactNativeSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F314BF445A10777B2AABA103477F31DA /* RCTUITextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTUITextField.h; sourceTree = "<group>"; };
 		F32E4DBA86E2D115C6FD1D844CDFBA8E /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ossl_typ.h; path = ios/include/openssl/ossl_typ.h; sourceTree = "<group>"; };
 		F32FDBDC56F2EA08264C1F34BB3353E2 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = ios/include/openssl/stack.h; sourceTree = "<group>"; };
@@ -4949,7 +4929,6 @@
 		F46632D52FA4037388AFCAB595956A12 /* AtomicNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AtomicNotification.h; path = folly/synchronization/AtomicNotification.h; sourceTree = "<group>"; };
 		F49A03B4DDFF2CC1E9A81714FA601590 /* ErrorCode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ErrorCode.cpp; path = rsocket/framing/ErrorCode.cpp; sourceTree = "<group>"; };
 		F49BD806B1ED28D3A6B18A9A7ECB54C3 /* RCTSinglelineTextInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSinglelineTextInputView.h; sourceTree = "<group>"; };
-		F4DFBB3888B2DC18632A2D29055BCE3C /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F4F714D59F3B7B731FD4FD870ED95ECF /* CxxModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxxModule.h; sourceTree = "<group>"; };
 		F53BAAB4885AF57033A05B83BFE9D131 /* RCTTypeSafety.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RCTTypeSafety.debug.xcconfig; sourceTree = "<group>"; };
 		F54640206DDC01465B8FD432128377B0 /* React-RCTNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "React-RCTNetwork.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -5112,13 +5091,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3197FCBF5F6C13F0F13BAD472B3C08D8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		34618A4C29E91989F6AD026ECAEE32CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -5204,13 +5176,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AEC50A43C7CC8565A8CC7E310C768904 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B7B8BBCE9C5C48361A34E192C10FB94E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -5457,22 +5422,6 @@
 			);
 			name = "React-RCTNetwork";
 			path = "../../node_modules/react-native/Libraries/Network";
-			sourceTree = "<group>";
-		};
-		1C3F7089BB2DB389E823BB30683F2A68 /* Pods-loyaltyStationReactNativeSDK */ = {
-			isa = PBXGroup;
-			children = (
-				E341E0186906039D9BB7D8845B789A45 /* Pods-loyaltyStationReactNativeSDK.modulemap */,
-				F311AEAC284BDBFD76BEB4CC049E039B /* Pods-loyaltyStationReactNativeSDK-acknowledgements.markdown */,
-				77CA909EC0A5E55BF4FB1DEBB6A6EB92 /* Pods-loyaltyStationReactNativeSDK-acknowledgements.plist */,
-				26437759DA1A87AF0333C5B2828F8846 /* Pods-loyaltyStationReactNativeSDK-dummy.m */,
-				8B0C692ACEAA8E7A3463C089269F727C /* Pods-loyaltyStationReactNativeSDK-resources.sh */,
-				A3D46594CA44600F1237BC1346837CE9 /* Pods-loyaltyStationReactNativeSDK-umbrella.h */,
-				ECD1E18D8D69EFD231F48E9FE5C14459 /* Pods-loyaltyStationReactNativeSDK.debug.xcconfig */,
-				93E8CCFB165B681CA859F7016B7B93C5 /* Pods-loyaltyStationReactNativeSDK.release.xcconfig */,
-			);
-			name = "Pods-loyaltyStationReactNativeSDK";
-			path = "Target Support Files/Pods-loyaltyStationReactNativeSDK";
 			sourceTree = "<group>";
 		};
 		1C7DBCEE936C4E22149CA0605D24D8CF /* glog */ = {
@@ -5941,19 +5890,6 @@
 			path = Drivers;
 			sourceTree = "<group>";
 		};
-		4003CC33BDB246F9428FAF99301AB8B1 /* Pods-loyaltyStationReactNativeSDK-tvOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				A1A30D6D5D9282FA40F27E642B8C0C04 /* Pods-loyaltyStationReactNativeSDK-tvOSTests-acknowledgements.markdown */,
-				10FF20B7BD9F23C1A881AD9EC3A440EF /* Pods-loyaltyStationReactNativeSDK-tvOSTests-acknowledgements.plist */,
-				4F25A89B07EF3795D1314FCA31C40AF1 /* Pods-loyaltyStationReactNativeSDK-tvOSTests-dummy.m */,
-				E12C1E06365AB15FEE53EDD29907B8C7 /* Pods-loyaltyStationReactNativeSDK-tvOSTests.debug.xcconfig */,
-				621C0C9CBDBB412A9E3300E9DC658F02 /* Pods-loyaltyStationReactNativeSDK-tvOSTests.release.xcconfig */,
-			);
-			name = "Pods-loyaltyStationReactNativeSDK-tvOSTests";
-			path = "Target Support Files/Pods-loyaltyStationReactNativeSDK-tvOSTests";
-			sourceTree = "<group>";
-		};
 		40CD6901F8564D9971A04B6565C9A05E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -6160,6 +6096,46 @@
 			path = "../../ios/Pods/Target Support Files/React-Core";
 			sourceTree = "<group>";
 		};
+		48494303B255D672B9097E6AD7FC522E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D792B6328AAF68E46924D7F466631 /* AccessibilityResources.bundle */,
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* libCocoaAsyncSocket.a */,
+				6FFB7B2992BB53405E6B771A5BA1E97D /* libDoubleConversion.a */,
+				ABFEEA82A6C346B22843FBE0B0582182 /* libFBReactNativeSpec.a */,
+				E93F701CA8EB196D77AE99E094D873E4 /* libFlipper.a */,
+				AC12C7E29555A7CFDDEF1EDB5BC2F3DA /* libFlipper-DoubleConversion.a */,
+				99D5CD245388DC76AAEF6E1E351A90ED /* libFlipper-Folly.a */,
+				E00BE2A3146698E81A8F9D00E8F93A6C /* libFlipper-Glog.a */,
+				ACBB7F62B267CC7C9BBBAE41DE94743B /* libFlipper-PeerTalk.a */,
+				FFDC7746794AB17CFB7150820479DF40 /* libFlipper-RSocket.a */,
+				65234B3E668A42D9137B2C7AB051EE37 /* libFlipperKit.a */,
+				06489499588BFA8FD5E63DD6375CD533 /* libFolly.a */,
+				3CA7A9404CCDD6BA22C97F8348CE3209 /* libglog.a */,
+				275CCA714671949F1DD54E10E8D76F5E /* libPods-loyaltyStationReactNativeSDK.a */,
+				5905155A691E4CC99FA78A07795BE87D /* libPods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.a */,
+				F958876A082BF810B342435CE3FB5AF6 /* libRCTTypeSafety.a */,
+				BD71E2539823621820F84384064C253A /* libReact-Core.a */,
+				6771D231F4C8C5976470A369C474B32E /* libReact-CoreModules.a */,
+				37592FDAD45752511010F4B06AC57355 /* libReact-cxxreact.a */,
+				D9F334F2E90E3EE462FC4192AF5C03BD /* libReact-jsi.a */,
+				F2E7C88DFCD460A4B46B913ADEB8A641 /* libReact-jsiexecutor.a */,
+				2577F299FCB0A19824FE989BE77B8E8F /* libReact-jsinspector.a */,
+				FE7B9294FF05AAFD1653E2104E10844A /* libReact-RCTAnimation.a */,
+				F71EBF73F354B475D465FF6DE9A66707 /* libReact-RCTBlob.a */,
+				EEDBF403E8E0B3885E65C2741B536BC5 /* libReact-RCTImage.a */,
+				802121F5B756ACBFDD6D08C36246DADD /* libReact-RCTLinking.a */,
+				A68E5A9B69A3BA0FD52CAF7A354EC93B /* libReact-RCTNetwork.a */,
+				269BE773C9482484B70949A40F4EA525 /* libReact-RCTSettings.a */,
+				E6A16705C69FC7DE11C2469A4A0F8358 /* libReact-RCTText.a */,
+				C1A919103EAC9813D236486C34FC0A21 /* libReact-RCTVibration.a */,
+				D5C775614AC76D44CECB6BE08B022F1F /* libReactCommon.a */,
+				65D0A19C165FA1126B1360680FE6DB12 /* libYoga.a */,
+				5B3357A1CE67C0BF4AE31936A1BE6888 /* libYogaKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		49C4A7D3E9805ECAAC2878E960417343 /* Flipper */ = {
 			isa = PBXGroup;
 			children = (
@@ -6312,19 +6288,6 @@
 				908C504B3BBAEC72F6561D1F40B76E1F /* RCTTypeSafety.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		59B7DE61473D50BA2194BB233799C782 /* Pods-loyaltyStationReactNativeSDK-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				0B10633E8696F31929471A778E081B25 /* Pods-loyaltyStationReactNativeSDK-tvOS-acknowledgements.markdown */,
-				4EF5E43FF68F7B42D30E84E48F1EE796 /* Pods-loyaltyStationReactNativeSDK-tvOS-acknowledgements.plist */,
-				6543DF3F3FEBC2D00C9F9E6BAEA68D7D /* Pods-loyaltyStationReactNativeSDK-tvOS-dummy.m */,
-				7360FC268F07D034F6BF625CA15524A6 /* Pods-loyaltyStationReactNativeSDK-tvOS.debug.xcconfig */,
-				9A427EDC3CC70FCC62E422EF87877932 /* Pods-loyaltyStationReactNativeSDK-tvOS.release.xcconfig */,
-			);
-			name = "Pods-loyaltyStationReactNativeSDK-tvOS";
-			path = "Target Support Files/Pods-loyaltyStationReactNativeSDK-tvOS";
 			sourceTree = "<group>";
 		};
 		5A85300C32564A0F0076172902446EF6 /* React-RCTActionSheet */ = {
@@ -7277,6 +7240,15 @@
 			path = "../../node_modules/react-native/Libraries/Image";
 			sourceTree = "<group>";
 		};
+		7228ECC30A6912ADF52CBD19002B4C76 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F70FF944170E14100EDDB92BF8D9793 /* Pods-loyaltyStationReactNativeSDK */,
+				B022318E9F020EED1F452418E32BF642 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		733A34DD932A63D204D8F7F3D7C77471 /* TextInput */ = {
 			isa = PBXGroup;
 			children = (
@@ -7748,17 +7720,6 @@
 			path = "../../../../ios/Pods/Target Support Files/React-RCTAnimation";
 			sourceTree = "<group>";
 		};
-		9CE5D057D4DAD2DAC5DE6287DD56890A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1C3F7089BB2DB389E823BB30683F2A68 /* Pods-loyaltyStationReactNativeSDK */,
-				AB5F750E7F16E341CD5A69A12BD91A29 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests */,
-				59B7DE61473D50BA2194BB233799C782 /* Pods-loyaltyStationReactNativeSDK-tvOS */,
-				4003CC33BDB246F9428FAF99301AB8B1 /* Pods-loyaltyStationReactNativeSDK-tvOSTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		9D5E9D5D54AFA6BA128F758C78CC7DE7 /* Text */ = {
 			isa = PBXGroup;
 			children = (
@@ -7816,6 +7777,22 @@
 			name = RCTTextHeaders;
 			sourceTree = "<group>";
 		};
+		9F70FF944170E14100EDDB92BF8D9793 /* Pods-loyaltyStationReactNativeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				117CB745EAAC6FFB19717DCAE4EF4CD4 /* Pods-loyaltyStationReactNativeSDK.modulemap */,
+				9EB6169855F47AFDBD578499C56C63B5 /* Pods-loyaltyStationReactNativeSDK-acknowledgements.markdown */,
+				DE772851B85129DAB90B696582F63133 /* Pods-loyaltyStationReactNativeSDK-acknowledgements.plist */,
+				E2365D80779BF34D59ADBB51922FEB3E /* Pods-loyaltyStationReactNativeSDK-dummy.m */,
+				3819A180B3554CB02AEA35C0CB653FA1 /* Pods-loyaltyStationReactNativeSDK-resources.sh */,
+				BB3027D8282BCF0B17243CABA5B7DBA0 /* Pods-loyaltyStationReactNativeSDK-umbrella.h */,
+				9B13141AF1B377141E3425D1541E1EA4 /* Pods-loyaltyStationReactNativeSDK.debug.xcconfig */,
+				97F3B14D927323CD72BFB3F13322A974 /* Pods-loyaltyStationReactNativeSDK.release.xcconfig */,
+			);
+			name = "Pods-loyaltyStationReactNativeSDK";
+			path = "Target Support Files/Pods-loyaltyStationReactNativeSDK";
+			sourceTree = "<group>";
+		};
 		A45DDAA7357EC4D99DEC2B2207EA4600 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -7824,48 +7801,6 @@
 			);
 			name = "Support Files";
 			path = "../../../../ios/Pods/Target Support Files/RCTRequired";
-			sourceTree = "<group>";
-		};
-		A55A9FC1FCF281015F0D3EF91E4CDCBA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FE6D792B6328AAF68E46924D7F466631 /* AccessibilityResources.bundle */,
-				6CBEFE4F9E22AFDC6347A739BB35FF8C /* libCocoaAsyncSocket.a */,
-				6FFB7B2992BB53405E6B771A5BA1E97D /* libDoubleConversion.a */,
-				ABFEEA82A6C346B22843FBE0B0582182 /* libFBReactNativeSpec.a */,
-				E93F701CA8EB196D77AE99E094D873E4 /* libFlipper.a */,
-				AC12C7E29555A7CFDDEF1EDB5BC2F3DA /* libFlipper-DoubleConversion.a */,
-				99D5CD245388DC76AAEF6E1E351A90ED /* libFlipper-Folly.a */,
-				E00BE2A3146698E81A8F9D00E8F93A6C /* libFlipper-Glog.a */,
-				ACBB7F62B267CC7C9BBBAE41DE94743B /* libFlipper-PeerTalk.a */,
-				FFDC7746794AB17CFB7150820479DF40 /* libFlipper-RSocket.a */,
-				65234B3E668A42D9137B2C7AB051EE37 /* libFlipperKit.a */,
-				06489499588BFA8FD5E63DD6375CD533 /* libFolly.a */,
-				3CA7A9404CCDD6BA22C97F8348CE3209 /* libglog.a */,
-				275CCA714671949F1DD54E10E8D76F5E /* libPods-loyaltyStationReactNativeSDK.a */,
-				5905155A691E4CC99FA78A07795BE87D /* libPods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.a */,
-				057BD1FC53A6EB11D3CE918CF70135D0 /* libPods-loyaltyStationReactNativeSDK-tvOS.a */,
-				3FD19C186A471181B5B2ABD6EA1E3B88 /* libPods-loyaltyStationReactNativeSDK-tvOSTests.a */,
-				F958876A082BF810B342435CE3FB5AF6 /* libRCTTypeSafety.a */,
-				BD71E2539823621820F84384064C253A /* libReact-Core.a */,
-				6771D231F4C8C5976470A369C474B32E /* libReact-CoreModules.a */,
-				37592FDAD45752511010F4B06AC57355 /* libReact-cxxreact.a */,
-				D9F334F2E90E3EE462FC4192AF5C03BD /* libReact-jsi.a */,
-				F2E7C88DFCD460A4B46B913ADEB8A641 /* libReact-jsiexecutor.a */,
-				2577F299FCB0A19824FE989BE77B8E8F /* libReact-jsinspector.a */,
-				FE7B9294FF05AAFD1653E2104E10844A /* libReact-RCTAnimation.a */,
-				F71EBF73F354B475D465FF6DE9A66707 /* libReact-RCTBlob.a */,
-				EEDBF403E8E0B3885E65C2741B536BC5 /* libReact-RCTImage.a */,
-				802121F5B756ACBFDD6D08C36246DADD /* libReact-RCTLinking.a */,
-				A68E5A9B69A3BA0FD52CAF7A354EC93B /* libReact-RCTNetwork.a */,
-				269BE773C9482484B70949A40F4EA525 /* libReact-RCTSettings.a */,
-				E6A16705C69FC7DE11C2469A4A0F8358 /* libReact-RCTText.a */,
-				C1A919103EAC9813D236486C34FC0A21 /* libReact-RCTVibration.a */,
-				D5C775614AC76D44CECB6BE08B022F1F /* libReactCommon.a */,
-				65D0A19C165FA1126B1360680FE6DB12 /* libYoga.a */,
-				5B3357A1CE67C0BF4AE31936A1BE6888 /* libYogaKit.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A6DF9A14501797E400F0EE781CC0F9A0 /* Support Files */ = {
@@ -7943,22 +7878,6 @@
 			path = Text;
 			sourceTree = "<group>";
 		};
-		AB5F750E7F16E341CD5A69A12BD91A29 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				C6298C502DEE7DBFDAAC03DBBA73F8BE /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.modulemap */,
-				F4DFBB3888B2DC18632A2D29055BCE3C /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-acknowledgements.markdown */,
-				928D540BB4683E03BDEA01DD868AA2AA /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-acknowledgements.plist */,
-				EA393D91D82187C466F1286A548CA280 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-dummy.m */,
-				94CE810A2A20DAC454D386509C32F7FF /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-resources.sh */,
-				EA63F2D59BFB0D6701FB9C401F14A3DD /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-umbrella.h */,
-				CFB703E5D254119867B960A03B927B7C /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.debug.xcconfig */,
-				28AAE44500F54C4817F2957786BF4EC4 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.release.xcconfig */,
-			);
-			name = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests";
-			path = "Target Support Files/Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests";
-			sourceTree = "<group>";
-		};
 		ABA12CBFDDD12EA45E98440D07C1AC87 /* ReactCommon */ = {
 			isa = PBXGroup;
 			children = (
@@ -8029,6 +7948,22 @@
 				43E7AA00434E8EA4A1E94E55BB1ED531 /* libssl.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B022318E9F020EED1F452418E32BF642 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A58D024EBC642B545AEF60DDD158623 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.modulemap */,
+				B36B81A251882746ACE64DFF739AC80D /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-acknowledgements.markdown */,
+				3D2AE788A405E6BAB17034450FD1BCF2 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-acknowledgements.plist */,
+				52CF43D3C63D3725C1E9C2DC576F8CDC /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-dummy.m */,
+				CF11CE610B6A2F03FA9A2162022C03C4 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-resources.sh */,
+				B9E725A1B94C20837042C60329C19A9B /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests-umbrella.h */,
+				ABA2E846D5B82894C4C2959A1EE25C6F /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.debug.xcconfig */,
+				8A4561BD5551707F4BF83291192794B2 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.release.xcconfig */,
+			);
+			name = "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests";
+			path = "Target Support Files/Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests";
 			sourceTree = "<group>";
 		};
 		B64F4E0D58E426A1B3F4DA2549C05DCC /* FBCxxFollyDynamicConvert */ = {
@@ -8158,8 +8093,8 @@
 				9DA150DF38D1ED93C406268EE0EE9E6B /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				5F5BAE1FEDFDFE598A938BAECF205209 /* Pods */,
-				A55A9FC1FCF281015F0D3EF91E4CDCBA /* Products */,
-				9CE5D057D4DAD2DAC5DE6287DD56890A /* Targets Support Files */,
+				48494303B255D672B9097E6AD7FC522E /* Products */,
+				7228ECC30A6912ADF52CBD19002B4C76 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -8767,13 +8702,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CED9EE5CB7376FF7FB07C9F43879FEC /* FBReactNativeSpec.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08C0437DB92C5157B74EBEB883425346 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -10029,13 +9957,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F64DF7E140176353B8D805FA18A92FC2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -10163,24 +10084,6 @@
 			name = YogaKit;
 			productName = YogaKit;
 			productReference = 5B3357A1CE67C0BF4AE31936A1BE6888 /* libYogaKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		3B2EA5414868E6A64ECDEDB48FDFF230 /* Pods-loyaltyStationReactNativeSDK-tvOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 394AE3B4F12CFD2E1CF55BE218C1E72A /* Build configuration list for PBXNativeTarget "Pods-loyaltyStationReactNativeSDK-tvOSTests" */;
-			buildPhases = (
-				F64DF7E140176353B8D805FA18A92FC2 /* Headers */,
-				26D402475234BAE22466E9E1A82270A3 /* Sources */,
-				B7B8BBCE9C5C48361A34E192C10FB94E /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				14BB94C4CDBBD7FEC000295269C55980 /* PBXTargetDependency */,
-			);
-			name = "Pods-loyaltyStationReactNativeSDK-tvOSTests";
-			productName = "Pods-loyaltyStationReactNativeSDK-tvOSTests";
-			productReference = 3FD19C186A471181B5B2ABD6EA1E3B88 /* libPods-loyaltyStationReactNativeSDK-tvOSTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		463F41A7E8B252F8AC5024DA1F4AF6DA /* React-cxxreact */ = {
@@ -10569,23 +10472,6 @@
 			productReference = ABFEEA82A6C346B22843FBE0B0582182 /* libFBReactNativeSpec.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C50D6BA712A488429F9EEF55EDF582A0 /* Pods-loyaltyStationReactNativeSDK-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5EE40B7B3ECC7E633DF7924B21E31F50 /* Build configuration list for PBXNativeTarget "Pods-loyaltyStationReactNativeSDK-tvOS" */;
-			buildPhases = (
-				08C0437DB92C5157B74EBEB883425346 /* Headers */,
-				95BE9160AB873C1D7B5763853E12F115 /* Sources */,
-				3197FCBF5F6C13F0F13BAD472B3C08D8 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-loyaltyStationReactNativeSDK-tvOS";
-			productName = "Pods-loyaltyStationReactNativeSDK-tvOS";
-			productReference = 057BD1FC53A6EB11D3CE918CF70135D0 /* libPods-loyaltyStationReactNativeSDK-tvOS.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		C7A5F3325D51A8F2D2B853F9893DC2F1 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED1688B7FB04E169F72A84AF00B9EDDA /* Build configuration list for PBXNativeTarget "Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests" */;
@@ -10835,7 +10721,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A55A9FC1FCF281015F0D3EF91E4CDCBA /* Products */;
+			productRefGroup = 48494303B255D672B9097E6AD7FC522E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -10857,8 +10743,6 @@
 				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
 				248921953ADA33FD817E60291326F09D /* Pods-loyaltyStationReactNativeSDK */,
 				C7A5F3325D51A8F2D2B853F9893DC2F1 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests */,
-				C50D6BA712A488429F9EEF55EDF582A0 /* Pods-loyaltyStationReactNativeSDK-tvOS */,
-				3B2EA5414868E6A64ECDEDB48FDFF230 /* Pods-loyaltyStationReactNativeSDK-tvOSTests */,
 				E7E7CE52C8C68B17224FF8C262D80ABF /* RCTRequired */,
 				D20469A9A1E5CFB26045EAEBE3F88E5E /* RCTTypeSafety */,
 				1BEE828C124E6416179B904A9F66D794 /* React */,
@@ -10997,14 +10881,6 @@
 				497E3CB7A90DBE382E5BC10C8FDD115A /* JSIExecutor.cpp in Sources */,
 				DA0379DC5D39C25ED85E86DDB57DB940 /* JSINativeModules.cpp in Sources */,
 				255DD536C167BEA493A3A93656FCB5C6 /* React-jsiexecutor-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26D402475234BAE22466E9E1A82270A3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04BDEFCECB7220BE9052A22FC06F52FA /* Pods-loyaltyStationReactNativeSDK-tvOSTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11509,14 +11385,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95BE9160AB873C1D7B5763853E12F115 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC33544FB18C5A088A4C787E09B51DE7 /* Pods-loyaltyStationReactNativeSDK-tvOS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9C06CB2E1654EF3D87100572ADED81D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -11883,12 +11751,6 @@
 			name = ReactCommon;
 			target = B6D5DD49633DFF0657B8C3F08EB3ABA9 /* ReactCommon */;
 			targetProxy = E1ABECEC3DA6B13E2002259B8170D9CB /* PBXContainerItemProxy */;
-		};
-		14BB94C4CDBBD7FEC000295269C55980 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-loyaltyStationReactNativeSDK-tvOS";
-			target = C50D6BA712A488429F9EEF55EDF582A0 /* Pods-loyaltyStationReactNativeSDK-tvOS */;
-			targetProxy = 43C3FBBC8CEA9DAC799161186EB9AA8A /* PBXContainerItemProxy */;
 		};
 		14D04125E2284DB6D632FA2146727F98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -13808,29 +13670,6 @@
 			};
 			name = Release;
 		};
-		7D93966F2F68B62B8BD80DE5C955B096 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 621C0C9CBDBB412A9E3300E9DC658F02 /* Pods-loyaltyStationReactNativeSDK-tvOSTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		84A4758156DCC78F4069913CAA7ABCF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0CC1E21F41668B4B9DBD99ED60527D51 /* React-jsinspector.debug.xcconfig */;
@@ -13900,7 +13739,7 @@
 		};
 		856602D3CCA5ADE260DFA73BCDFBE9BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28AAE44500F54C4817F2957786BF4EC4 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.release.xcconfig */;
+			baseConfigurationReference = 8A4561BD5551707F4BF83291192794B2 /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -14095,53 +13934,9 @@
 			};
 			name = Debug;
 		};
-		929C0FE7A65C323873016AD0936A3679 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E12C1E06365AB15FEE53EDD29907B8C7 /* Pods-loyaltyStationReactNativeSDK-tvOSTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		934EFB743CC5EE28BD207D6C60373946 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7360FC268F07D034F6BF625CA15524A6 /* Pods-loyaltyStationReactNativeSDK-tvOS.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		93D21A15908857278762AC730CA652CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECD1E18D8D69EFD231F48E9FE5C14459 /* Pods-loyaltyStationReactNativeSDK.debug.xcconfig */;
+			baseConfigurationReference = 9B13141AF1B377141E3425D1541E1EA4 /* Pods-loyaltyStationReactNativeSDK.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -14547,29 +14342,6 @@
 			};
 			name = Release;
 		};
-		B5339A34FB2CBDEBFC5E16EB277235F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A427EDC3CC70FCC62E422EF87877932 /* Pods-loyaltyStationReactNativeSDK-tvOS.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		B565171783E8267685E6A50BD7AC3FD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F53BAAB4885AF57033A05B83BFE9D131 /* RCTTypeSafety.debug.xcconfig */;
@@ -14650,7 +14422,7 @@
 		};
 		BD3991E08B29DF7724A33A98CD54A2B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFB703E5D254119867B960A03B927B7C /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.debug.xcconfig */;
+			baseConfigurationReference = ABA2E846D5B82894C4C2959A1EE25C6F /* Pods-loyaltyStationReactNativeSDK-loyaltyStationReactNativeSDKTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -14738,7 +14510,7 @@
 		};
 		D7287CBAF74F68417FBE3C8180AE7558 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93E8CCFB165B681CA859F7016B7B93C5 /* Pods-loyaltyStationReactNativeSDK.release.xcconfig */;
+			baseConfigurationReference = 97F3B14D927323CD72BFB3F13322A974 /* Pods-loyaltyStationReactNativeSDK.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -15125,15 +14897,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		394AE3B4F12CFD2E1CF55BE218C1E72A /* Build configuration list for PBXNativeTarget "Pods-loyaltyStationReactNativeSDK-tvOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				929C0FE7A65C323873016AD0936A3679 /* Debug */,
-				7D93966F2F68B62B8BD80DE5C955B096 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		40B7C616BD94DFFEAA56AA132F7E9347 /* Build configuration list for PBXAggregateTarget "React-callinvoker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -15175,15 +14938,6 @@
 			buildConfigurations = (
 				349516FE7245F478D95F7DF09AD2876A /* Debug */,
 				DC18C5C2DFD3D7EEA90109D24FB968D0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5EE40B7B3ECC7E633DF7924B21E31F50 /* Build configuration list for PBXNativeTarget "Pods-loyaltyStationReactNativeSDK-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				934EFB743CC5EE28BD207D6C60373946 /* Debug */,
-				B5339A34FB2CBDEBFC5E16EB277235F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

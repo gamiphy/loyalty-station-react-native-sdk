@@ -22,12 +22,3 @@ target 'loyaltyStationReactNativeSDK' do
     flipper_post_install(installer)
   end
 end
-
-target 'loyaltyStationReactNativeSDK-tvOS' do
-  # Pods for loyaltyStationReactNativeSDK-tvOS
-
-  target 'loyaltyStationReactNativeSDK-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-end
