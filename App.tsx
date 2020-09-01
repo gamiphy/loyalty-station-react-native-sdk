@@ -1,13 +1,12 @@
 import React, {ReactNode,} from 'react';
-import {SafeAreaView, StyleSheet, Text} from 'react-native';
+import {StyleSheet} from 'react-native';
+import LoyaltyStationWebview from "./sdk/webview/LoyaltyStationWebview";
 
 
 const App: () => ReactNode = () => {
     return (
         <>
-            <SafeAreaView style={styles.root}>
-                <Text>Hello World!</Text>
-            </SafeAreaView>
+            <LoyaltyStationWebview/>
         </>
     );
 };
