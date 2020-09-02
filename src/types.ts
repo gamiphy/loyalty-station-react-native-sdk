@@ -1,12 +1,4 @@
-import {FunctionComponentElement} from "react";
-
-export interface Types {
-    goToAuth?: (isSignUp: boolean) => void,
-    isAuthPage?: () => boolean,
-    environment?: ENVIRONMENT
-    loadingIndicator?: FunctionComponentElement<any> | undefined
-    initScript?: string
-}
+import {Languages, MessageTypes} from "./enum";
 
 export type User = {
     id?: string,
@@ -19,24 +11,12 @@ export type User = {
     hash: string,
 }
 
-export enum Languages {
-    en = 'en',
-    es = 'es',
-    ar = 'ar'
-}
-
-
-export enum ENVIRONMENT {
-    DEV
-}
-
-export type Config = {
+export type SDKConfig = {
     app: string,
     user?: User,
     openByDefault?: boolean | undefined,
     barHidden?: boolean | undefined
 }
-
 
 export type WebviewConfig = {
     app: string,
@@ -44,31 +24,16 @@ export type WebviewConfig = {
     visible?: boolean | undefined,
 }
 
-
 export type AuthMessage = {
-    type: MessageType.authMessage
+    type: MessageTypes.authMessage
     data: {
         isSignUp: boolean
     }
 }
 
-
 export type ShareMessage = {
-    type: MessageType.shareMessage
+    type: MessageTypes.shareMessage
     data: {}
 }
 
-export enum MessageType {
-    authMessage = "authMessage",
-    shareMessage = "shareMessage",
-}
-
-
-export type TypedStory = AuthMessage | ShareMessage;
-
-
-
-
-
-
-
+export type TypedMessage = AuthMessage | ShareMessage;

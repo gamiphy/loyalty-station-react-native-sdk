@@ -1,11 +1,19 @@
-import React, {Component, createRef} from "react";
+import React, {Component, createRef, FunctionComponentElement} from "react";
 import WebView from "react-native-webview";
 import {LoadingIndicator} from "./LoadingIndicator";
-import {AuthMessage, MessageType, TypedStory, Types, User, WebviewConfig} from "../types";
+import {AuthMessage, TypedMessage, User, WebviewConfig} from "../types";
 import {configMapper, getEnvironment, initScript, loginScript, logoutScript} from "../utils";
+import {Environments, MessageTypes} from "../enum";
 
+export interface Props {
+    goToAuth?: (isSignUp: boolean) => void,
+    isAuthPage?: () => boolean,
+    environment?: Environments
+    loadingIndicator?: FunctionComponentElement<any> | undefined
+    initScript?: string
+}
 
-export class LoyaltyStationWebview extends Component<Types> {
+export class LoyaltyStationWebview extends Component<Props> {
     private webView = createRef<WebView>();
 
     logout = () => {
@@ -36,12 +44,12 @@ export class LoyaltyStationWebview extends Component<Types> {
         )
     }
 
-    private onMessageHandler = (message: TypedStory) => {
+    private onMessageHandler = (message: TypedMessage) => {
         switch (message.type) {
-            case MessageType.authMessage:
+            case MessageTypes.authMessage:
                 this.onAuthMessageHandler(message)
                 break
-            case MessageType.shareMessage:
+            case MessageTypes.shareMessage:
                 break
         }
     }
