@@ -1,6 +1,6 @@
 {
   "name": "@gamiphy/loyality-station-react-native-sdk",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -22,6 +22,7 @@
     "react-native-webview": "^10.8.3"
   },
   "files": [
-    "lib"
+    "lib",
+    "README.md"
   ]
 }
