@@ -1,6 +1,5 @@
-# Gmiphy Loyalty Station SDK
+# Gamiphy Loyalty Station React Native SDK
 
-[Gmiphy Loyalty Station npm module Link](https://www.npmjs.com/package/@gamiphy/loyality-station-react-native-sdk)
 
 ## Introduction
 
@@ -8,10 +7,9 @@ Gamiphy Loyalty & Rewards, is a gamified loyalty program plugin/widget for eComm
   
 ## Installation
 
-Gamiphy Loyalty Station is available through [npm](https://www.npmjs.com/package/@gamiphy/loyality-station-react-native-sdk), To install:
-
+To install:
 ```sh
-npm install --save @gamiphy/loyality-station-react-native-sdk
+npm install --save @gamiphy/loyalty-station-react-native-sdk
 ```  
 
 ## Getting started
@@ -20,18 +18,18 @@ npm install --save @gamiphy/loyality-station-react-native-sdk
 Import  `LoyaltyStation`  from the library:
 
 ```javascript
-import {LoyaltyStation} from "@gamiphy/loyality-station-react-native-sdk"
+import {LoyaltyStation} from "@gamiphy/loyalty-station-react-native-sdk"
 ```
 
-Then wrap your code in  `LoyaltyStation`  component to make it available to all components.
+Then wrap your code in  `LoyaltyStationProvider`  component to make it available to all components.
 
 ```javascript
-<LoyaltyStation config={config:WebviewConfig}>  
+<LoyaltyStationProvider config={config:Config}>  
     <YourComponent/>
-</LoyaltyStation>
+</LoyaltyStationProvider>
 ```
 
-You can usee the use the [hooks](https://reactjs.org/docs/hooks-intro.html) based API to access the Loyalty Station functionality : 
+You can use the hooks based API to access the Loyalty Station functionality: 
 
 ```javascript
 
@@ -48,16 +46,21 @@ function App() {
 ```
 
 
-### Injected props
+###  props
 
 It will inject the following props to the component:
-```
-`config` :
-        `app`               - the loyality station id "bot Id"
-        `user`:
-            `email`         - is a must
-            `hash`          - is a must
-            `firstName`     - optional 
-            `lastName`      - optional
 
-```
+|  |   | type  | req/op  | description  |
+|---|---|---|---|---|
+| Config: 
+|     | app  | (string)  |   require|
+|     | user |  (User) | optional  |
+| User: 
+|     | email  |(string)   | require  |
+|     | hash  | (string)  |  require  |
+|     | firstName   |(string)   |require   |
+|     | lastName  |(string)   |require   |
+||  
+|goToAuth| |(isSignUp:boolean) => Void| optional | fiers boolean flag once the user press the signIn Button
+
+
