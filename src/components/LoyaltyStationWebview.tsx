@@ -1,5 +1,5 @@
-import React, {FunctionComponentElement} from "react";
-import WebView from "react-native-webview";
+import * as React from "react";
+import {WebView} from "react-native-webview";
 import {LoadingIndicator} from "./LoadingIndicator";
 import {AuthMessage, TypedMessage, WebviewConfig} from "../types";
 import {configMapper, getEnvironment, initScript} from "../utils";
@@ -10,7 +10,7 @@ export interface Props {
     goToAuth?: (isSignUp: boolean) => void,
     isAuthPage?: () => boolean,
     environment?: Environments
-    loadingIndicator?: FunctionComponentElement<any> | undefined
+    loadingIndicator?: React.ReactNode
     initScript?: string
 }
 
@@ -21,12 +21,6 @@ export const LoyaltyStationWebview: React.FC<Props> = ({
                                                            goToAuth
                                                        }) => {
     const webviewRef = React.useRef<WebView>(null);
-
-    React.useEffect(() => {
-        if (webviewRef.current) {
-            webviewRef.current.injectJavaScript(initScript(configMapper(config)))
-        }
-    }, [webviewRef.current]);
 
     const onMessageHandler = (message: TypedMessage) => {
         switch (message.type) {
@@ -49,6 +43,11 @@ export const LoyaltyStationWebview: React.FC<Props> = ({
             renderLoading={() => <LoadingIndicator loadingIndicator={loadingIndicator}/>}
             startInLoadingState={true}
             javaScriptEnabled={true}
+            onLoad={() => {
+                if (webviewRef.current) {
+                    webviewRef.current.injectJavaScript(initScript(configMapper(config)))
+                }
+            }}
             onMessage={event => {
                 onMessageHandler(JSON.parse(event.nativeEvent.data))
             }}

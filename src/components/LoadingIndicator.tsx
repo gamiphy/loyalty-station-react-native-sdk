@@ -1,9 +1,9 @@
-import React, {FunctionComponentElement} from 'react';
+import * as React from 'react';
 import {ActivityIndicator, StyleSheet, View} from 'react-native';
 
 
 interface Props {
-    loadingIndicator?: FunctionComponentElement<any> | undefined
+    loadingIndicator?: React.ReactNode
 }
 
 export const LoadingIndicator: React.FC<Props> = ({loadingIndicator}) => {

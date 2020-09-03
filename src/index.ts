@@ -1,2 +1,3 @@
 export * from './types'
-export * from './LoyaltyStationProvider'
+export * from './context'
+export * from './LoyaltyStation'

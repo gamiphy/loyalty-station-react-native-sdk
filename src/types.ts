@@ -14,14 +14,14 @@ export type User = {
 export type SDKConfig = {
     app: string,
     user?: User,
-    openByDefault?: boolean | undefined,
-    barHidden?: boolean | undefined
+    openByDefault?: boolean,
+    barHidden?: boolean
 }
 
 export type WebviewConfig = {
     app: string,
-    user?: User | undefined,
-    visible?: boolean | undefined,
+    user?: User,
+    visible?: boolean
 }
 
 export type AuthMessage = {
