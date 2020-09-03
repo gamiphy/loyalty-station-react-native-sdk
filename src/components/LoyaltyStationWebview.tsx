@@ -1,11 +1,12 @@
-import React, {Component, createRef, FunctionComponentElement} from "react";
+import React, {FunctionComponentElement} from "react";
 import WebView from "react-native-webview";
 import {LoadingIndicator} from "./LoadingIndicator";
-import {AuthMessage, TypedMessage, User, WebviewConfig} from "../types";
-import {configMapper, getEnvironment, initScript, loginScript, logoutScript} from "../utils";
+import {AuthMessage, TypedMessage, WebviewConfig} from "../types";
+import {configMapper, getEnvironment, initScript} from "../utils";
 import {Environments, MessageTypes} from "../enum";
 
 export interface Props {
+    config: WebviewConfig,
     goToAuth?: (isSignUp: boolean) => void,
     isAuthPage?: () => boolean,
     environment?: Environments
@@ -13,54 +14,44 @@ export interface Props {
     initScript?: string
 }
 
-export class LoyaltyStationWebview extends Component<Props> {
-    private webView = createRef<WebView>();
+export const LoyaltyStationWebview: React.FC<Props> = ({
+                                                           config,
+                                                           environment,
+                                                           loadingIndicator,
+                                                           goToAuth
+                                                       }) => {
+    const webviewRef = React.useRef<WebView>(null);
 
-    logout = () => {
-        this.injectScript(logoutScript())
-    }
+    React.useEffect(() => {
+        if (webviewRef.current) {
+            webviewRef.current.injectJavaScript(initScript(configMapper(config)))
+        }
+    }, [webviewRef.current]);
 
-    login = (user: User) => {
-        this.injectScript(loginScript(user))
-    }
-
-    init = (webviewConfig: WebviewConfig) => {
-        this.injectScript(initScript(configMapper(webviewConfig)))
-    }
-
-    render() {
-        return (
-            <WebView
-                ref={this.webView}
-                source={{uri: getEnvironment(this.props.environment)}}
-                renderLoading={() => <LoadingIndicator loadingIndicator={this.props.loadingIndicator}/>}
-                startInLoadingState={true}
-                javaScriptEnabled={true}
-                onMessage={event => {
-                    console.log("event.nativeEvent.data", event.nativeEvent.data)
-                    this.onMessageHandler(JSON.parse(event.nativeEvent.data))
-                }}
-            />
-        )
-    }
-
-    private onMessageHandler = (message: TypedMessage) => {
+    const onMessageHandler = (message: TypedMessage) => {
         switch (message.type) {
             case MessageTypes.authMessage:
-                this.onAuthMessageHandler(message)
+                onAuthMessageHandler(message)
                 break
             case MessageTypes.shareMessage:
                 break
         }
     }
 
-    private onAuthMessageHandler = (message: AuthMessage) => {
-        this.props.goToAuth && this.props.goToAuth(message.data.isSignUp)
+    const onAuthMessageHandler = (message: AuthMessage) => {
+        goToAuth && goToAuth(message.data.isSignUp)
     }
 
-    private injectScript = (script: string) => {
-        this.webView.current?.injectJavaScript(script)
-    }
+    return (
+        <WebView
+            ref={webviewRef}
+            source={{uri: getEnvironment(environment)}}
+            renderLoading={() => <LoadingIndicator loadingIndicator={loadingIndicator}/>}
+            startInLoadingState={true}
+            javaScriptEnabled={true}
+            onMessage={event => {
+                onMessageHandler(JSON.parse(event.nativeEvent.data))
+            }}
+        />
+    )
 }
-
-
