@@ -1,9 +1,10 @@
 import * as React from "react";
-import {WebView} from "react-native-webview";
+import {Component, createRef} from "react";
 import {LoadingIndicator} from "./LoadingIndicator";
-import {AuthMessage, TypedMessage, WebviewConfig} from "../types";
-import {configMapper, getEnvironment, initScript} from "../utils";
+import {AuthMessage, TypedMessage, User, WebviewConfig} from "../types";
+import {configMapper, getEnvironment, initScript, loginScript, logoutScript} from "../utils";
 import {Environments, MessageTypes} from "../enum";
+import {WebView} from "react-native-webview";
 
 export interface Props {
     config: WebviewConfig,
@@ -14,43 +15,53 @@ export interface Props {
     initScript?: string
 }
 
-export const LoyaltyStationWebview: React.FC<Props> = ({
-                                                           config,
-                                                           environment,
-                                                           loadingIndicator,
-                                                           goToAuth
-                                                       }) => {
-    const webviewRef = React.useRef<WebView>(null);
+export class LoyaltyStationWebview extends Component<Props> {
 
-    const onMessageHandler = (message: TypedMessage) => {
+    private webviewRef = createRef<WebView>();
+
+    onMessageHandler = (message: TypedMessage) => {
         switch (message.type) {
             case MessageTypes.authMessage:
-                onAuthMessageHandler(message)
+                this.onAuthMessageHandler(message)
                 break
             case MessageTypes.shareMessage:
                 break
         }
     }
 
-    const onAuthMessageHandler = (message: AuthMessage) => {
-        goToAuth && goToAuth(message.data.isSignUp)
+    logout = () => {
+        this.injectScript(logoutScript())
     }
 
-    return (
-        <WebView
-            ref={webviewRef}
-            source={{uri: getEnvironment(environment)}}
-            renderLoading={() => <LoadingIndicator loadingIndicator={loadingIndicator}/>}
-            startInLoadingState={true}
-            javaScriptEnabled={true}
-            onLoad={() => {
-                if (webviewRef.current) {
-                    webviewRef.current.injectJavaScript(initScript(configMapper(config)))
-                }
-            }}
-            onMessage={event => {
-                onMessageHandler(JSON.parse(event.nativeEvent.data))
-            }}
-        />
-    )
+    login = (user: User) => {
+        this.injectScript(loginScript(user))
+    }
+
+    render() {
+        return (
+            <WebView
+                ref={this.webviewRef}
+                source={{uri: getEnvironment(this.props.environment)}}
+                renderLoading={() => <LoadingIndicator loadingIndicator={this.props.loadingIndicator}/>}
+                startInLoadingState={true}
+                javaScriptEnabled={true}
+                onLoad={() => {
+                    if (this.webviewRef.current) {
+                        this.webviewRef.current.injectJavaScript(initScript(configMapper(this.props.config)))
+                    }
+                }}
+                onMessage={event => {
+                    this.onMessageHandler(JSON.parse(event.nativeEvent.data))
+                }}
+            />
+        )
+    }
+
+    injectScript = (script: string) => {
+        this.webviewRef.current?.injectJavaScript(script)
+    }
+
+    private onAuthMessageHandler = (message: AuthMessage) => {
+        this.props.goToAuth && this.props.goToAuth(message.data.isSignUp)
+    }
 }
