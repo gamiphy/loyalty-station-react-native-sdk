@@ -1,6 +1,6 @@
 {
-  "name": "@gamiphy/loyality-station-react-native-sdk",
-  "version": "0.0.7",
+  "name": "@gamiphy/loyalty-station-react-native-sdk",
+  "version": "0.0.8",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -17,9 +17,9 @@
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "react": "16.13.1",
-    "react-native": "0.63.2",
-    "react-native-webview": "^10.8.3"
+    "react": "^16.x",
+    "react-native": "^0.x",
+    "react-native-webview": "^10.x"
   },
   "files": [
     "lib",
