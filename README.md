@@ -59,7 +59,8 @@ Hooks providing the following functionality:
 |---------------------|---------------------|---------------------|
 | open   | ()=>void| opining the Loyality Station App 
 | close |()=>void | Closing The Loyality Station App 
-
+| logout   | ()=>void| Logout 
+| login |(user:User)=>void | Login
 
 
 
@@ -69,9 +70,9 @@ Hooks providing the following functionality:
   
 It will inject the following props to the component:  
 
-| Prop|Type|Optional| Description|
-|-------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|
-| Config:   |||no|
+| Prop|---|Type|Optional| Description|
+|-------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|
+| Config:   |---|---|no|
 |     | app  | string  |   no|  The app ID|
 |     | user |  User | yes  |  
 | User:   | |     |
