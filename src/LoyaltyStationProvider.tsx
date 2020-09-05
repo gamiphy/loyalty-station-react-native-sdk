@@ -4,11 +4,24 @@ import {User, WebviewConfig} from "./types";
 import {SafeAreaView, StyleSheet} from "react-native";
 import {LoyaltyStation} from './context'
 
+/**
+ * the props of the LoyaltyStationProvider
+ */
 type Props = {
     config: WebviewConfig,
     goToAuthHandler?: (isSignUp: boolean) => void
 }
-
+/**
+ *
+ * @param children: your component you want to inject the Loyalty Station webview in it.
+ * @param config:
+ * @param goToAuthHandler: Listener for the sign in button
+ * @constructor
+ *
+ *
+ * LoyaltyStationProvider injects the Loyalty station webview in your component.
+ *
+ */
 export const LoyaltyStationProvider: React.FC<Props> = ({children, config, goToAuthHandler}) => {
     const [open, setOpen] = React.useState<boolean>(false);
     const webviewRef = React.useRef<LoyaltyStationWebview>(null);

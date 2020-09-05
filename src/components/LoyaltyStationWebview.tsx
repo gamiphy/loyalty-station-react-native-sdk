@@ -15,6 +15,10 @@ export interface Props {
     initScript?: string
 }
 
+/**
+ *  this is the main component of the SDK, this is holding the Webview of the Loyalty Station
+ *
+ */
 export class LoyaltyStationWebview extends Component<Props> {
 
     private webviewRef = createRef<WebView>();
