@@ -9,7 +9,7 @@ Gamiphy Loyalty & Rewards, is a gamified loyalty program plugin/widget for eComm
   
 To install:  
 ```sh  
-npm install --save @gamiphy/loyality-station-react-native-sdk  
+npm install --save @gamiphy/loyalty-station-react-native-sdk  
 ```   
 
 #### Requirement
