@@ -1,0 +1,28 @@
+{
+  "name": "@gamiphy/loyalty-station-react-native-sdk",
+  "version": "0.0.10",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.49",
+    "@types/react-native": "^0.63.13"
+  },
+  "devDependencies": {
+    "react": "16.13.1",
+    "react-native": "0.63.2",
+    "react-native-webview": "^10.8.3",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": "^16.x",
+    "react-native": "^0.x",
+    "react-native-webview": "^10.x"
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ]
+}
