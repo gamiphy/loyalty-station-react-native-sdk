@@ -3,7 +3,7 @@
   
 ## Introduction  
   
-Gamiphy Loyalty & Rewards, is a gamified loyalty program plugin/widget for eCommerce. You will be able to reward users with points for completing pre defined "challenges" within your store. In addition to that users can compete with each other in compeitions reflected on a leaderboard, receive badges and invite their freinds, among other gamified features.  
+Gamiphy Loyalty Station, is a gamified loyalty program plugin/widget for eCommerce. You will be able to reward users with points for completing pre defined "challenges" within your store. In addition to that users can compete with each other in compeitions reflected on a leaderboard, receive badges and invite their freinds, among other gamified features.  
     
 ## Installation  
   
@@ -26,7 +26,7 @@ npm install --save @gamiphy/loyalty-station-react-native-sdk
 Import  `LoyaltyStation` from the library:  
   
 ```javascript  
-import {LoyaltyStation} from "@gamiphy/loyality-station-react-native-sdk"
+import {LoyaltyStation} from "@gamiphy/loyalty-station-react-native-sdk"
 ```  
   
 Then wrap your code in  `LoyaltyStationProvider` component to make it available to all components.  
@@ -57,8 +57,8 @@ Hooks providing the following functionality:
 
 |  Function|  signature|Description
 |---------------------|---------------------|---------------------|
-| open   | ()=>void| opining the Loyality Station App 
-| close |()=>void | Closing The Loyality Station App 
+| open   | ()=>void| opening the Loyalty Station App 
+| close |()=>void | Closing The Loyalty Station App 
 | logout   | ()=>void| Logout 
 | login |(user:User)=>void | Login
 
